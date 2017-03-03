@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  margin: auto;
+  align-items: center; }
+  @media (max-width: 46.24em) {
+    .container {
+      width: 300px;
+      flex-flow: column wrap;
+      margin-top: 1.5rem; } }
+  @media (min-width: 46.25em) and (max-width: 81.24em) {
+    .container {
+      width: 640px;
+      flex-flow: column wrap;
+      margin-top: 2.5rem; } }
+  @media (min-width: 81.25em) {
+    .container {
+      width: 1170px;
+      flex-flow: row wrap;
+      margin-top: 4rem; } }
+
+.picture {
+  flex: 1; }
+  .picture img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+    @media (min-width: 20em) {
+      .picture img {
+        width: 213.33333px;
+        height: 213.33333px; } }
+    @media (min-width: 61.25em) {
+      .picture img {
+        width: 245px;
+        height: 245px; } }
+
+.quote {
+  margin-top: 2.5rem; }
+  @media (min-width: 20em) and (max-width: 81.24em) {
+    .quote {
+      flex: 1 100%; } }
+  @media (min-width: 81.25em) {
+    .quote {
+      flex: 3; } }
+  @media (min-width: 20em) and (max-width: 61.24em) {
+    .quote h1 {
+      font-size: 1.5rem;
+      font-weight: 400; } }
+  @media (min-width: 61.25em) {
+    .quote h1 {
+      font-size: 2.5rem;
+      font-weight: 200; } }
+  @media (min-width: 20em) and (max-width: 61.24em) {
+    .quote p {
+      font-size: 16px; } }
+  @media (min-width: 61.25em) {
+    .quote p {
+      margin-top: 2rem;
+      font-size: 20px;
+      font-weight: 400; } }
+
+/*# sourceMappingURL=intro.component.css.map */

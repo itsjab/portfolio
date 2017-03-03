@@ -4,23 +4,24 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ProjectListComponent } from './project-list/project-list.component';
-import { IntroComponent } from './intro/intro.component';
-import { NavigationComponent } from './navigation/navigation.component';
+import { ProjectListComponent } from './components/project-list/project-list.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { ProjectService } from './services/project.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectListComponent,
     IntroComponent,
-    NavigationComponent
+    NavigationComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

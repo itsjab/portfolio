@@ -1,0 +1,91 @@
+@import "../../../../node_modules/sass-mq/mq";
+
+
+.container {
+
+  display: flex;
+  margin: auto;
+  align-items: center;
+
+  @include mq($until: tablet) {
+    width: 300px;
+    flex-flow: column wrap;
+    margin-top: 1.5rem;
+  }
+
+  @include mq($from: tablet, $until: wide) {
+    width: 640px;
+    flex-flow: column wrap;
+    margin-top: 2.5rem;
+  }
+
+  @include mq($from: wide) {
+    width: 1170px;
+    flex-flow: row wrap;
+    margin-top: 4rem;
+  }
+
+}
+
+.picture {
+
+  flex: 1;
+
+  img {
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    @include mq($from: mobile) {
+      width: map-get($mq-breakpoints, mobile) / 1.5;
+      height: map-get($mq-breakpoints, mobile) / 1.5;
+    }
+
+    @include mq($from: desktop) {
+      width: map-get($mq-breakpoints, desktop) / 4;
+      height: map-get($mq-breakpoints, desktop) / 4;
+    }
+  }
+}
+
+.quote {
+
+  margin-top: 2.5rem;
+
+  @include mq($from: mobile, $until: wide) {
+    flex: 1 100%;
+  }
+
+  @include mq($from: wide) {
+    flex: 3;
+  }
+
+  h1 {
+
+    @include mq($from: mobile, $until: desktop) {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+
+    @include mq($from: desktop) {
+      font-size: 2.5rem;
+      font-weight: 200;
+    }
+  }
+
+  p {
+
+    @include mq($from: mobile, $until: desktop) {
+      font-size: 16px;
+    }
+
+    @include mq($from: desktop) {
+      margin-top: 2rem;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+}
+
+
