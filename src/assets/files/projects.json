@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
-    "description": "test"
+    "title": "Hallo wie gehts?",
+    "description": "test",
+    "image": "src/assets/images/chips-16-9.png"
   },
   {
     "id": 2,
     "title": "Project 2",
-    "description": "test"
+    "description": "test",
+    "image": "src/assets/images/frozen-sea-16-9.png"
   },
   {
     "id": 3,
     "title": "Project 3",
-    "description": "test"
+    "description": "test",
+    "image": "src/assets/images/buntes-de-16-9.png"
   },
   {
     "id": 4,
     "title": "Project 4",
-    "description": "test"
+    "description": "test",
+    "image": "src/assets/images/5th-wheel-16-9.png"
   }
 ]

@@ -2,7 +2,7 @@
 
   <div class="container">
 
-    <div class="project" *ngFor="let project of projects">
+    <div class="project" *ngFor="let project of projects" [style.background-image]="'url(' + project.image + ')'">
         <p>{{ project.title }}</p>
         <p>{{ project.description }}</p>
     </div>

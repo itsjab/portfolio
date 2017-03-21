@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex; }
+  @media (max-width: 61.24em) {
+    .container {
+      flex-direction: column;
+      margin-top: 2.5rem; } }
+  @media (min-width: 61.25em) {
+    .container {
+      flex-flow: row wrap;
+      margin-top: 4rem; } }
+  .container .project {
+    height: 250px;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    @media (min-width: 46.25em) {
+      .container .project {
+        height: 400px; } }
+    @media (min-width: 61.25em) {
+      .container .project {
+        flex-basis: 50%; } }
+    @media (min-width: 81.25em) {
+      .container .project {
+        height: 500px; } }
+
+/*# sourceMappingURL=project-list.component.css.map */

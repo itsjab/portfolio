@@ -11,6 +11,7 @@
     width: 300px;
     flex-flow: column wrap;
     margin-top: 1.5rem;
+    justify-content: center;
   }
 
   @include mq($from: tablet, $until: wide) {
@@ -59,6 +60,7 @@
 
   @include mq($from: wide) {
     flex: 3;
+    padding-left: 2.5rem;
   }
 
   h1 {
