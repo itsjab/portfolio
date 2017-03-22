@@ -15,12 +15,24 @@
     "id": 3,
     "title": "Project 3",
     "description": "test",
-    "image": "src/assets/images/buntes-de-16-9.png"
+    "image": "src/assets/images/roommate-16-9.png"
   },
   {
     "id": 4,
     "title": "Project 4",
     "description": "test",
-    "image": "src/assets/images/5th-wheel-16-9.png"
+    "image": "src/assets/images/social-ride-16-9.png"
+  },
+  {
+    "id": 5,
+    "title": "Project 5",
+    "description": "test",
+    "image": "src/assets/images/tim-16-9.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Project 6",
+    "description": "test",
+    "image": "src/assets/images/buntes-de-16-9.png"
   }
 ]

@@ -1,44 +1,35 @@
 @import "../../../../node_modules/sass-mq/mq";
 
 .container {
-
   width: 100%;
   display: flex;
 
-
   @include mq($until: desktop) {
-
     flex-direction: column;
     margin-top: 2.5rem;
 
   }
 
   @include mq($from: desktop) {
-
     flex-flow: row wrap;
     margin-top: 4rem;
 
   }
 
   .project {
-
-    height: 250px;
     flex: 1;
+    height: 56.25vw;
+    //padding-top: 56.25%;
     background-size: cover;
     background-repeat: no-repeat;
 
-    @include mq($from: tablet) {
-      height: 400px;
-    }
-
     @include mq($from: desktop) {
+      height: 28.125vw;
       flex-basis: 50%;
     }
 
-    @include mq($from: wide) {
-      height: 500px;
+    p {
+      position: absolute;
     }
-
   }
-
 }
