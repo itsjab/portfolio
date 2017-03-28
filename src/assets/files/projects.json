@@ -1,38 +1,38 @@
 [
   {
-    "id": 1,
-    "title": "Hallo wie gehts?",
-    "description": "test",
+    "id": "schips",
+    "title": "Schips",
+    "description": "Experience these highly addictive potato chips",
     "image": "src/assets/images/chips-16-9.png"
   },
   {
-    "id": 2,
-    "title": "Project 2",
-    "description": "test",
+    "id": "frozen-sea",
+    "title": "Frozen Sea",
+    "description": "A platform that brings researchers and subjects together",
     "image": "src/assets/images/frozen-sea-16-9.png"
   },
   {
-    "id": 3,
-    "title": "Project 3",
-    "description": "test",
-    "image": "src/assets/images/roommate-16-9.png"
+    "id": "buntes-deutschland",
+    "title": "Buntes Deutschland",
+    "description": "Battle the rise of right wing populism with colorful stickers",
+    "image": "src/assets/images/buntes-de-16-9.png"
   },
   {
-    "id": 4,
-    "title": "Project 4",
-    "description": "test",
+    "id": "social-ride",
+    "title": "Social Ride",
+    "description": "A student project that helps refugees to explore Munich with their own bike",
     "image": "src/assets/images/social-ride-16-9.png"
   },
   {
-    "id": 5,
-    "title": "Project 5",
-    "description": "test",
+    "id": "tim",
+    "title": "TIM One of a kind",
+    "description": "A modern, lightweight project automation platform",
     "image": "src/assets/images/tim-16-9.jpg"
   },
   {
-    "id": 6,
-    "title": "Project 6",
-    "description": "test",
-    "image": "src/assets/images/buntes-de-16-9.png"
+    "id": "roommate",
+    "title": "Roommate",
+    "description": "A fun, tinder-like way of finding your next roommate or shared apartment",
+    "image": "src/assets/images/roommate-16-9.png"
   }
 ]

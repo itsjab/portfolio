@@ -94,8 +94,9 @@ html {
 /* Document
    ========================================================================== */
 html {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   /* 1 */
+  font-weight: 300;
   line-height: 1.15;
   /* 2 */
   -ms-text-size-adjust: 100%;

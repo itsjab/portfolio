@@ -2,8 +2,14 @@
 
   <div class="container">
 
-    <div class="project" *ngFor="let project of projects" [style.background-image]="'url(' + project.image + ')'">
-      <p>Test</p>
+    <div class="project"
+         *ngFor="let project of projects"
+         [style.background-image]="'url(' + project.image + ')'"
+         (click)="selectProject(project.id)">
+      <div class="project-overlay">
+        <h1>{{ project.title }}</h1>
+        <p>{{ project.description }}</p>
+      </div>
     </div>
 
   </div>

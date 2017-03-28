@@ -8,8 +8,9 @@
   @media (min-width: 61.25em) {
     .container {
       flex-flow: row wrap;
-      margin-top: 4rem; } }
+      margin-top: 6rem; } }
   .container .project {
+    display: flex;
     flex: 1;
     height: 56.25vw;
     background-size: cover;
@@ -18,7 +19,22 @@
       .container .project {
         height: 28.125vw;
         flex-basis: 50%; } }
-    .container .project p {
-      position: absolute; }
+  .container .project-overlay {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: inherit;
+    background-color: #fff;
+    opacity: 0;
+    justify-content: center;
+    align-items: center; }
+    .container .project-overlay:hover {
+      opacity: 0.3; }
+    @media (min-width: 61.25em) {
+      .container .project-overlay {
+        flex-basis: 50%; } }
+    .container .project-overlay h1 {
+      font-family: 'Lora', serif; }
 
 /*# sourceMappingURL=project-list.component.css.map */

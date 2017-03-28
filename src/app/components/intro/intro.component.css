@@ -43,21 +43,21 @@
     .quote {
       flex: 3;
       padding-left: 2.5rem; } }
-  @media (min-width: 20em) and (max-width: 61.24em) {
-    .quote h1 {
-      font-size: 1.5rem;
-      font-weight: 400; } }
-  @media (min-width: 61.25em) {
-    .quote h1 {
-      font-size: 2.5rem;
-      font-weight: 200; } }
+  .quote h1 {
+    font-family: 'Lora', serif;
+    font-weight: 300; }
+    @media (min-width: 20em) and (max-width: 61.24em) {
+      .quote h1 {
+        font-size: 1.5rem; } }
+    @media (min-width: 61.25em) {
+      .quote h1 {
+        font-size: 2.5rem; } }
   @media (min-width: 20em) and (max-width: 61.24em) {
     .quote p {
       font-size: 16px; } }
   @media (min-width: 61.25em) {
     .quote p {
       margin-top: 2rem;
-      font-size: 20px;
-      font-weight: 400; } }
+      font-size: 20px; } }
 
 /*# sourceMappingURL=intro.component.css.map */

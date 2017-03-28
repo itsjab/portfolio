@@ -12,14 +12,14 @@
 
   @include mq($from: desktop) {
     flex-flow: row wrap;
-    margin-top: 4rem;
+    margin-top: 6rem;
 
   }
 
   .project {
+    display: flex;
     flex: 1;
     height: 56.25vw;
-    //padding-top: 56.25%;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -27,9 +27,29 @@
       height: 28.125vw;
       flex-basis: 50%;
     }
+  }
 
-    p {
-      position: absolute;
+  .project-overlay {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: inherit;
+    background-color: #fff;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      opacity: 0.3;
+    }
+
+    @include mq($from: desktop) {
+      flex-basis: 50%;
+    }
+
+    h1 {
+      font-family: 'Lora', serif;
     }
   }
 }
