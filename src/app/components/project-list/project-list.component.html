@@ -1,17 +1,15 @@
 <section>
 
-  <div class="container">
-
-    <div class="project"
+  <div class="Projects">
+    <div class="Projects-project"
          *ngFor="let project of projects"
-         [style.background-image]="'url(' + project.image + ')'"
+         [style.background-image]="'url(' + project.main.image + ')'"
          (click)="selectProject(project.id)">
-      <div class="project-overlay">
-        <h1>{{ project.title }}</h1>
-        <p>{{ project.description }}</p>
+      <div class="Projects-overlay">
+        <h1>{{ project.main.title }}</h1>
+        <p>{{ project.main.description }}</p>
       </div>
     </div>
-
   </div>
 
 </section>

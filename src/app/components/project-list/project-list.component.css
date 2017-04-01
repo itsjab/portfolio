@@ -1,40 +1,42 @@
-.container {
+.Projects {
   width: 100%;
   display: flex; }
   @media (max-width: 61.24em) {
-    .container {
+    .Projects {
       flex-direction: column;
       margin-top: 2.5rem; } }
   @media (min-width: 61.25em) {
-    .container {
+    .Projects {
       flex-flow: row wrap;
       margin-top: 6rem; } }
-  .container .project {
-    display: flex;
-    flex: 1;
-    height: 56.25vw;
-    background-size: cover;
-    background-repeat: no-repeat; }
-    @media (min-width: 61.25em) {
-      .container .project {
-        height: 28.125vw;
-        flex-basis: 50%; } }
-  .container .project-overlay {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    height: inherit;
-    background-color: #fff;
-    opacity: 0;
-    justify-content: center;
-    align-items: center; }
-    .container .project-overlay:hover {
-      opacity: 0.3; }
-    @media (min-width: 61.25em) {
-      .container .project-overlay {
-        flex-basis: 50%; } }
-    .container .project-overlay h1 {
-      font-family: 'Lora', serif; }
+
+.Projects-project {
+  display: flex;
+  flex: 1;
+  height: 56.25vw;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media (min-width: 61.25em) {
+    .Projects-project {
+      height: 28.125vw;
+      flex-basis: 50%; } }
+
+.Projects-overlay {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: inherit;
+  background-color: #fff;
+  opacity: 0;
+  justify-content: center;
+  align-items: center; }
+  .Projects-overlay:hover {
+    opacity: 0.3; }
+  @media (min-width: 61.25em) {
+    .Projects-overlay {
+      flex-basis: 50%; } }
+  .Projects-overlay h1 {
+    font-family: 'Lora', serif; }
 
 /*# sourceMappingURL=project-list.component.css.map */

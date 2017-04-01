@@ -106,7 +106,7 @@
 
 // ELEMENTS
 @import "elements/_elements.page";
-@import "elements/_elements.headings";
+@import "elements/_elements.text";
 @import "elements/_elements.images";
 @import "elements/_elements.tables";
 
@@ -138,6 +138,7 @@
 //
 // Build and include your project’s UI Compoments here.
 @import "components/_components.buttons";
+@import "components/_components.layout";
 
 
 

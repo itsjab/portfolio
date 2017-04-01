@@ -1,38 +1,95 @@
 [
   {
     "id": "schips",
-    "title": "Schips",
-    "description": "Experience these highly addictive potato chips",
-    "image": "src/assets/images/chips-16-9.png"
+    "main": {
+      "title": "Schips",
+      "description": "Experience these highly addictive potato chips",
+      "image": "src/assets/images/chips-16-9.png"
+    },
+    "intro": {
+      "title": "Schips - highly addictive potato chips",
+      "description": "Schips is an idea a friend and I came up with on a party. Everywhere you looked where these blend, generic potato chips that taste like card board. What if we could provide great tasting, highly addictive chips that use the freshest locally sourced ingredients?<br><br>As it is with many party ideas, Schips remains to be an idea that will never come to life. Anyways, I created a few designs to showcase Schips. Check them out below.",
+      "client": "None (personal project)",
+      "role": "Designer",
+      "year": "2016"
+    }
   },
   {
     "id": "frozen-sea",
-    "title": "Frozen Sea",
-    "description": "A platform that brings researchers and subjects together",
-    "image": "src/assets/images/frozen-sea-16-9.png"
+    "main": {
+      "title": "Frozen Sea",
+      "description": "A platform that brings researchers and subjects together",
+      "image": "src/assets/images/frozen-sea-16-9.png"
+    },
+    "intro": {
+      "title": "Frozen Sea",
+      "description": "A platform that brings researchers and subjects together",
+      "client": "None (personal project)",
+      "role": "Designer",
+      "year": "2016"
+    }
+
   },
   {
     "id": "buntes-deutschland",
-    "title": "Buntes Deutschland",
-    "description": "Battle the rise of right wing populism with colorful stickers",
-    "image": "src/assets/images/buntes-de-16-9.png"
+    "main": {
+      "title": "Buntes Deutschland",
+      "description": "Battle the rise of right wing populism with colorful stickers",
+      "image": "src/assets/images/buntes-de-16-9.png"
+    },
+    "intro": {
+      "title": "Buntes Deutschland",
+      "description": "Battle the rise of right wing populism with colorful stickers",
+      "client": "None (personal project)",
+      "role": "Designer",
+      "year": "2016"
+    }
   },
   {
     "id": "social-ride",
-    "title": "Social Ride",
-    "description": "A student project that helps refugees to explore Munich with their own bike",
-    "image": "src/assets/images/social-ride-16-9.png"
+    "main": {
+      "title": "Social Ride",
+      "description": "A student project that helps refugees to explore Munich with their own bike",
+      "image": "src/assets/images/social-ride-16-9.png"
+    },
+    "intro": {
+      "title": "Social Ride",
+      "description": "A student project that helps refugees to explore Munich with their own bike",
+      "client": "None (personal project)",
+      "role": "Designer",
+      "year": "2016"
+    }
   },
   {
     "id": "tim",
-    "title": "TIM One of a kind",
-    "description": "A modern, lightweight project automation platform",
-    "image": "src/assets/images/tim-16-9.jpg"
+    "main": {
+      "title": "TIM One of a kind",
+      "description": "A modern, lightweight project automation platform",
+      "image": "src/assets/images/tim-16-9.jpg"
+    },
+    "intro": {
+      "title": "TIM One of a kind",
+      "description": "A modern, lightweight project automation platform",
+      "image": "src/assets/images/tim-16-9.jpg",
+      "client": "None (personal project)",
+      "role": "Designer",
+      "year": "2016"
+    }
   },
   {
     "id": "roommate",
-    "title": "Roommate",
-    "description": "A fun, tinder-like way of finding your next roommate or shared apartment",
-    "image": "src/assets/images/roommate-16-9.png"
+    "main": {
+      "title": "Roommate",
+      "description": "A fun, tinder-like way of finding your next roommate or shared apartment",
+      "image": "src/assets/images/roommate-16-9.png"
+    },
+    "intro": {
+      "title": "Roommate",
+      "description": "A fun, tinder-like way of finding your next roommate or shared apartment",
+      "image": "src/assets/images/roommate-16-9.png",
+      "client": "None (personal project)",
+      "role": "Designer",
+      "year": "2016"
+    }
   }
 ]

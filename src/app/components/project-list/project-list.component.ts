@@ -11,10 +11,7 @@ import {Router} from "@angular/router";
 })
 export class ProjectListComponent implements OnInit {
 
-  errorMessage: string;
   projects: Project[];
-  mode = 'observable';
-
 
   constructor(
     private http: Http,
@@ -25,7 +22,7 @@ export class ProjectListComponent implements OnInit {
       .map(res => res.json())
       .subscribe(data => this.projects = data,
         err => console.log(err),
-        () => console.log('Completed'));
+        () => console.log('main'));
   }
 
   selectProject(project) {

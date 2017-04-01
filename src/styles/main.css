@@ -127,7 +127,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
+h1, h3 {
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -496,7 +496,8 @@ template {
  * A very simple reset that sits on top of Normalize.css.
  */
 body,
-h1, h2, h3, h4, h5, h6,
+h1,
+h3, h2, h3, h4, h5, h6,
 blockquote, p, pre,
 dl, dd, ol, ul,
 figure,
@@ -540,7 +541,8 @@ fieldset {
  */
 /* stylelint-disable selector-list-comma-newline-after */
 address,
-h1, h2, h3, h4, h5, h6,
+h1,
+h3, h2, h3, h4, h5, h6,
 blockquote, p, pre,
 dl, ol, ul,
 figure,
@@ -590,35 +592,27 @@ html {
  * than simple font-size changes should likely be applied via classes (see:
  * http://csswizardry.com/2016/02/managing-typography-on-large-apps/).
  */
-h1 {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 1.33333; }
+h1, h3 {
+  font-family: 'Lora', serif;
+  font-weight: 300; }
+  @media (min-width: 20em) and (max-width: 61.24em) {
+    h1, h3 {
+      font-size: 1.5rem; } }
+  @media (min-width: 61.25em) {
+    h1, h3 {
+      font-size: 2.5rem; } }
 
-h2 {
-  font-size: 28px;
-  font-size: 1.75rem;
-  line-height: 1.71429; }
+@media (min-width: 20em) and (max-width: 61.24em) {
+  h3 {
+    font-size: 1rem; } }
+@media (min-width: 61.25em) {
+  h3 {
+    font-size: 1.5rem; } }
 
-h3 {
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1; }
-
-h4 {
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 1.2; }
-
-h5 {
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 1.33333; }
-
-h6 {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.5; }
+@media (min-width: 61.25em) {
+  p {
+    margin-top: 2rem;
+    font-size: 1.25rem; } }
 
 /* ==========================================================================
    #IMAGES

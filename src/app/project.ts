@@ -3,7 +3,17 @@
  */
 
 export class Project {
-  id: number;
-  title: string;
-  description: string;
+  id: string;
+  main: {
+    title: string,
+    description: string,
+    image: string,
+  };
+  intro: {
+    title: string,
+    description: string,
+    client: string,
+    role: string,
+    year: string
+  }
 }
