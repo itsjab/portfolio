@@ -1,0 +1,41 @@
+.ProjectIntro {
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff; }
+
+.ProjectIntro-Text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 90vw; }
+  @media (min-width: 46.25em) {
+    .ProjectIntro-Text {
+      margin-top: 4rem; } }
+  @media (min-width: 61.25em) {
+    .ProjectIntro-Text {
+      width: 60vw;
+      margin-top: 6rem; } }
+  @media (min-width: 81.25em) {
+    .ProjectIntro-Text {
+      width: 50vw; } }
+
+.ProjectIntro-Meta {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 46.25em) {
+    .ProjectIntro-Meta {
+      flex-direction: row;
+      margin-top: 1rem;
+      align-items: center; } }
+  .ProjectIntro-Meta div {
+    margin-top: 1rem; }
+    @media (min-width: 46.25em) {
+      .ProjectIntro-Meta div {
+        margin-top: 0;
+        font-size: 1.25rem;
+        padding-right: 2rem; } }
+
+/*# sourceMappingURL=project-intro.component.css.map */

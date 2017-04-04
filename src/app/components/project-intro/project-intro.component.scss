@@ -1,0 +1,51 @@
+@import "../../../../node_modules/sass-mq/mq";
+
+.ProjectIntro {
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.ProjectIntro-Text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 90vw;
+
+  @include mq($from: tablet) {
+    margin-top: 4rem;
+  }
+
+  @include mq($from: desktop) {
+    width: 60vw;
+    margin-top: 6rem;
+  }
+
+  @include mq($from: wide) {
+    width: 50vw;
+  }
+}
+
+.ProjectIntro-Meta {
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: tablet) {
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  div {
+    margin-top: 1rem;
+
+    @include mq($from: tablet) {
+      margin-top: 0;
+      font-size: 1.25rem;
+      padding-right: 2rem;
+    }
+  }
+}
