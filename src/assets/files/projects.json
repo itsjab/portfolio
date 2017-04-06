@@ -8,7 +8,7 @@
     },
     "intro": {
       "title": "Schips - highly addictive potato chips",
-      "description": "Schips is an idea a friend and I came up with on a party. Everywhere you looked where these blend, generic potato chips that taste like card board. What if we could provide great tasting, highly addictive chips that use the freshest locally sourced ingredients?<br><br>As it is with many party ideas, Schips remains to be an idea that will never come to life. Anyways, I created a few designs to showcase Schips. Check them out below.",
+      "description": "Schips is an idea a friend and I came up with on a party. Everywhere you looked where these blend, generic potato chips that taste like card board. What if we could provide great tasting, highly addictive chips that use the freshest locally sourced ingredients.\n\nAs it is with many party ideas, Schips remains to be a dream yet waiting to come alive. Anyways, I created a few designs to showcase Schips. Check them out below.",
       "client": "None (personal project)",
       "role": "Designer",
       "year": "2016"
@@ -70,7 +70,6 @@
     "intro": {
       "title": "TIM One of a kind",
       "description": "A modern, lightweight project automation platform",
-      "image": "src/assets/images/tim-16-9.jpg",
       "client": "None (personal project)",
       "role": "Designer",
       "year": "2016"
@@ -84,9 +83,8 @@
       "image": "src/assets/images/roommate-16-9.png"
     },
     "intro": {
-      "title": "Roommate",
-      "description": "A fun, tinder-like way of finding your next roommate or shared apartment",
-      "image": "src/assets/images/roommate-16-9.png",
+      "title": "Roommate - swipe to your next roommate",
+      "description": "I came up with the idea for roommate while looking for a shared apartment in Munich. As it is with many major cities around the world, Munich's real estate market is an urban jungle. This makes finding a place to stay or a new roommate equally painful.\n\nWhat if you could intelligently match shared appartments with applicants? Similar to Tinder, Roommate brings blabla and shared apartments together.",
       "client": "None (personal project)",
       "role": "Designer",
       "year": "2016"

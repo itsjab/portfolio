@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from "../../project";
-import {Http} from "@angular/http";
 import 'rxjs/add/operator/map';
 import {Router} from "@angular/router";
+import {ProjectService} from "../../services/project-service/project.service";
 
 @Component({
   selector: 'app-project-list',
@@ -14,15 +14,17 @@ export class ProjectListComponent implements OnInit {
   projects: Project[];
 
   constructor(
-    private http: Http,
+    private projectService: ProjectService,
     private router: Router) { }
 
-  ngOnInit() {
-    this.http.get('../../assets/files/projects.json')
-      .map(res => res.json())
-      .subscribe(data => this.projects = data,
-        err => console.log(err),
-        () => console.log('main'));
+  ngOnInit(): void {
+    this.getProjects();
+  }
+
+  getProjects(): void {
+    this.projectService
+      .getProjects()
+      .then(projects => this.projects = projects)
   }
 
   selectProject(project) {

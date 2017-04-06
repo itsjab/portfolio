@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Http, Headers} from '@angular/http';
 import 'rxjs/Rx';
 import {Project} from "../../project";
+import {ProjectService} from "../../services/project-service/project.service";
 
 @Component({
   selector: 'project-intro',
@@ -9,9 +9,23 @@ import {Project} from "../../project";
   styleUrls: ['./project-intro.component.css']
 })
 
-export class ProjectIntroComponent{
+export class ProjectIntroComponent implements OnInit {
 
-  project: Project;
+  @Input() select: string;
 
-  constructor(private http: Http) {}
+  private project: Project;
+
+  constructor(private projectService: ProjectService) {}
+
+  ngOnInit(): void {
+
+    this.getProject();
+  }
+
+  getProject(): void {
+    this.projectService
+      .getSpecificProject(this.select)
+      .then(project => {console.log(this.select), this.project = project, console.log(project)})
+  }
+
 }

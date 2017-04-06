@@ -16,6 +16,7 @@ import { SocialRideComponent } from './components/social-ride/social-ride.compon
 import { TimComponent } from './components/tim/tim.component';
 import { RoommateComponent } from './components/roommate/roommate.component';
 import { ProjectIntroComponent } from './components/project-intro/project-intro.component';
+import {ProjectService} from "./services/project-service/project.service";
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { ProjectIntroComponent } from './components/project-intro/project-intro.
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

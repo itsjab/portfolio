@@ -2,7 +2,7 @@
  * Created by Jan on 03.03.2017.
  */
 
-export class Project {
+export interface Project {
   id: string;
   main: {
     title: string,
