@@ -4,11 +4,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
-  padding-top: 4rem;
+  padding: 4rem 5vw;
   background-color: #f6f6f6;
-  width: 100vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
 
   @include mq($from: desktop) {
     padding-left: 10vw;
@@ -22,15 +19,33 @@
   }
 }
 
+.Roommate-Pictures--multiple {
+  @extend .Roommate-Pictures;
+
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .Roommate-Picture {
+  display: flex;
+  align-self: center;
+}
+
+.Roommate-Picture--large {
+  @extend .Roommate-Picture;
 
   @include mq($from: wide) {
-    display: flex;
-    flex: 1;
-    width: 50vw;
-    height: 28vw;
-    background-image: url("../../../assets/images/roommate-full.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 405px;
+    height: 800px;
+  }
+}
+
+.Roommate-Picture--small {
+  @extend .Roommate-Picture;
+
+  @include mq($from: wide) {
+    width: 16rem;
+    height: 31.625rem;
   }
 }
