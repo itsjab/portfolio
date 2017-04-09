@@ -17,6 +17,7 @@ import { TimComponent } from './components/tim/tim.component';
 import { RoommateComponent } from './components/roommate/roommate.component';
 import { ProjectIntroComponent } from './components/project-intro/project-intro.component';
 import {ProjectService} from "./services/project-service/project.service";
+import {SwitchArrowComponent} from "./components/switch-arrow/switch-arrow.component";
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import {ProjectService} from "./services/project-service/project.service";
     TimComponent,
     RoommateComponent,
     ProjectIntroComponent,
+    SwitchArrowComponent,
   ],
   imports: [
     BrowserModule,
