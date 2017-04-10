@@ -19,6 +19,12 @@
   }
 }
 
+.Roommate-Pictures--accent {
+  @extend  .Roommate-Pictures;
+
+  background-color: #263238;
+}
+
 .Roommate-Pictures--multiple {
   @extend .Roommate-Pictures;
 

@@ -1,18 +1,21 @@
-.Roommate-Pictures, .Roommate-Pictures--multiple {
+.Roommate-Pictures, .Roommate-Pictures--accent, .Roommate-Pictures--multiple {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
   padding: 4rem 5vw;
   background-color: #f6f6f6; }
   @media (min-width: 61.25em) {
-    .Roommate-Pictures, .Roommate-Pictures--multiple {
+    .Roommate-Pictures, .Roommate-Pictures--accent, .Roommate-Pictures--multiple {
       padding-left: 10vw;
       padding-right: 10vw;
       margin-top: 4rem; } }
   @media (min-width: 81.25em) {
-    .Roommate-Pictures, .Roommate-Pictures--multiple {
+    .Roommate-Pictures, .Roommate-Pictures--accent, .Roommate-Pictures--multiple {
       padding-left: 25vw;
       padding-right: 25vw; } }
+
+.Roommate-Pictures--accent {
+  background-color: #263238; }
 
 .Roommate-Pictures--multiple {
   background-color: #fff;

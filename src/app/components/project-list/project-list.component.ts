@@ -27,7 +27,7 @@ export class ProjectListComponent implements OnInit {
       .then(projects => this.projects = projects)
   }
 
-  selectProject(project) {
+  selectProject(project): void {
     this.router.navigate([`/${project}`])
   }
 }
