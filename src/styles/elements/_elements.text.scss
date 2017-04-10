@@ -36,6 +36,7 @@ h1 {
 
 h3 {
   @extend h1;
+  margin-bottom: 2.5rem;
 
   @include mq($from: mobile, $until: desktop) {
     font-size: 1rem;
@@ -44,7 +45,10 @@ h3 {
   @include mq($from: desktop) {
     font-size: 1.5rem;
   }
+}
 
+.light {
+  color: #fff;
 }
 
 p {

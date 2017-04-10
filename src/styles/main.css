@@ -602,12 +602,17 @@ h1, h3 {
     h1, h3 {
       font-size: 2.5rem; } }
 
-@media (min-width: 20em) and (max-width: 61.24em) {
-  h3 {
-    font-size: 1rem; } }
-@media (min-width: 61.25em) {
-  h3 {
-    font-size: 1.5rem; } }
+h3 {
+  margin-bottom: 2.5rem; }
+  @media (min-width: 20em) and (max-width: 61.24em) {
+    h3 {
+      font-size: 1rem; } }
+  @media (min-width: 61.25em) {
+    h3 {
+      font-size: 1.5rem; } }
+
+.light {
+  color: #fff; }
 
 @media (min-width: 61.25em) {
   p {
