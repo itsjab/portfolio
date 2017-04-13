@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAmB;EACjB,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,GAAG;EACR,MAAM,EAAE,OAAO;EAEf,kCAAgB;IACd,SAAS,EAAE,MAAM;IACjB,KAAK,EAAE,OAAO;;AAIlB,wBAAyB;EACvB,IAAI,EAAE,MAAM;;AAGd,yBAA0B;EACxB,KAAK,EAAE,MAAM",
+"sources": ["project-navigation.component.scss"],
+"names": [],
+"file": "project-navigation.component.css"
+}

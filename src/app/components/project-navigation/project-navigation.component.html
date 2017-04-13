@@ -1,0 +1,6 @@
+<div class="ProjectNavigation ProjectNavigation--left" *ngIf="index > 1" (click)="selectPreviousProject()">
+    <i class="material-icons">keyboard_arrow_left</i>
+</div>
+<div class="ProjectNavigation ProjectNavigation--right" *ngIf="index < 6" (click)="selectNextProject()">
+    <i class="material-icons">keyboard_arrow_right</i>
+</div>
