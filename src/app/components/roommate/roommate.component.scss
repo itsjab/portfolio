@@ -1,11 +1,12 @@
 @import "../../../../node_modules/sass-mq/mq";
+@import "../../../styles/settings/settings.global";
 
 .Roommate-Pictures {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
   padding: 4rem 5vw;
-  background-color: #f6f6f6;
+  background-color: $background-grey;
 
   @include mq($from: desktop) {
     padding-left: 10vw;
@@ -21,16 +22,19 @@
 
 .Roommate-Pictures--accent {
   @extend  .Roommate-Pictures;
-
-  background-color: #263238;
+  background-color: $roommate-accent;
+  margin-top: 0;
 }
 
 .Roommate-Pictures--multiple {
   @extend .Roommate-Pictures;
-
-  background-color: #fff;
-  flex-direction: row;
+  background-color: $background-light;
   justify-content: space-between;
+  margin-top: 0;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+  }
 }
 
 .Roommate-Picture {
@@ -40,18 +44,35 @@
 
 .Roommate-Picture--large {
   @extend .Roommate-Picture;
+  width: 200px;
+  height: 396px;
 
-  @include mq($from: wide) {
-    width: 405px;
-    height: 800px;
+  @include mq($from: desktop) {
+    width: 30vw;
+    max-width: 353.5px;
+    height: 59.4vw;
+    max-height: 700px;
   }
 }
 
 .Roommate-Picture--small {
   @extend .Roommate-Picture;
+  width: 50vw;
+  height: 99vw;
+
+  &:not(:first-of-type) {
+    @include mq($until: desktop) {
+      margin-top: 2rem;
+    }
+  }
+
+  @include mq($from: desktop) {
+    width: 22.5vw;
+    height: 44.6vw;
+  }
 
   @include mq($from: wide) {
-    width: 16rem;
-    height: 31.625rem;
+    width: 15vw;
+    height: 29.7vw;
   }
 }

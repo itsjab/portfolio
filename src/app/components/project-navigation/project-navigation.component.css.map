@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,kBAAmB;EACjB,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,GAAG;EACR,MAAM,EAAE,OAAO;EAEf,kCAAgB;IACd,SAAS,EAAE,MAAM;IACjB,KAAK,EAAE,OAAO;;AAIlB,wBAAyB;EACvB,IAAI,EAAE,MAAM;;AAGd,yBAA0B;EACxB,KAAK,EAAE,MAAM",
-"sources": ["project-navigation.component.scss"],
+"mappings": "AAEA,kBAAmB;EACjB,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,GAAG;EACR,MAAM,EAAE,OAAO;EC2NT,2BAAqC;ID9N7C,kBAAmB;MAMf,OAAO,EAAE,IAAI;EAGf,kCAAgB;IACd,SAAS,EAAE,MAAM;IACjB,KAAK,EAAE,OAAO;;AAIlB,wBAAyB;EACvB,IAAI,EAAE,MAAM;;AAGd,yBAA0B;EACxB,KAAK,EAAE,MAAM",
+"sources": ["project-navigation.component.scss","../../../../node_modules/sass-mq/_mq.scss"],
 "names": [],
 "file": "project-navigation.component.css"
 }
