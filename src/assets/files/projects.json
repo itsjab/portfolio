@@ -23,10 +23,10 @@
     },
     "intro": {
       "title": "Frozen Sea",
-      "description": "A platform that brings researchers and subjects together",
-      "client": "None (personal project)",
-      "role": "Designer",
-      "year": "2016"
+      "description": "At the Ludwig-Maximilians University in Munich, every semester countless experiments are conducted. Still, finding subjects for these studies proves to be incredibly difficult. Researchers and subjects have to rely on facebook groups, mailing lists and word of mouth.\n\nTo make this process easier for all parties, we created Frozen Sea, a platform to bring researchers and subjects together. Our algorithm takes study requirements into consideration to find suitable subjects.",
+      "client": "LMU (University project)",
+      "role": "Designer & Developer",
+      "year": "2017"
     }
 
   },
