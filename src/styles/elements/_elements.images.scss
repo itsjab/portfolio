@@ -1,14 +1,5 @@
-/* ==========================================================================
-   #IMAGES
-   ========================================================================== */
-
-/**
- * 1. Fluid images for responsive purposes.
- * 2. Offset `alt` text from surrounding copy.
- * 3. Setting `vertical-align` removes the whitespace that appears under `img`
- *    elements when they are dropped into a page as-is. Safer alternative to
- *    using `display: block;`.
- */
+@import "../../../node_modules/sass-mq/mq";
+@import "../../styles/settings/settings.global";
 
 img {
   max-width: 100%; /* [1] */
@@ -25,4 +16,87 @@ img {
 img[width], /* [1] */
 img[height] {  /* [1] */
   max-width: none;
+}
+
+.Picture-Container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 5vw;
+  background-color: $background-grey;
+
+  @include mq($from: desktop) {
+    padding: 8rem 10vw;
+  }
+
+  @include mq($from: wide) {
+    padding: 8rem 25vw;
+  }
+}
+
+.Picture-Container--multiple {
+  @extend .Picture-Container;
+  justify-content: space-between;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.Project-Picture {
+  display: flex;
+  align-self: center;
+}
+
+.Project-PictureMobile--large {
+  @extend .Project-Picture;
+  width: 200px;
+  height: 396px;
+
+  @include mq($from: desktop) {
+    width: 30vw;
+    max-width: 353.5px;
+    height: 59.4vw;
+    max-height: 700px;
+  }
+}
+
+.Project-PictureMobile--small {
+  @extend .Project-Picture;
+  width: 50vw;
+  height: 99vw;
+
+  &:not(:first-of-type) {
+    @include mq($until: desktop) {
+      margin-top: 2rem;
+    }
+  }
+
+  @include mq($from: desktop) {
+    width: 22.5vw;
+    height: 44.6vw;
+  }
+
+  @include mq($from: wide) {
+    width: 15vw;
+    height: 29.7vw;
+  }
+}
+
+.Background-light {
+  background-color: $background-light;
+}
+
+.Picture-Caption {
+  display: flex;
+  align-self: flex-start;
+  font-size: 14px;
+  color: $text-body-light;
+  margin-top: .5rem;
+  margin-left: .5rem;
+}
+
+.Picture-Heading--multiple {
+  display: flex;
+  flex: 0 0 100%;
 }

@@ -18,6 +18,7 @@ import { RoommateComponent } from './components/roommate/roommate.component';
 import { ProjectIntroComponent } from './components/project-intro/project-intro.component';
 import {ProjectService} from "./services/project-service/project.service";
 import {ProjectNavigationComponent} from "./components/project-navigation/project-navigation.component";
+import { ProjectStatsComponent } from './components/project-stats/project-stats.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import {ProjectNavigationComponent} from "./components/project-navigation/projec
     RoommateComponent,
     ProjectIntroComponent,
     ProjectNavigationComponent,
+    ProjectStatsComponent,
   ],
   imports: [
     BrowserModule,

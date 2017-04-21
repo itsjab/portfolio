@@ -1,78 +1,12 @@
 @import "../../../../node_modules/sass-mq/mq";
 @import "../../../styles/settings/settings.global";
 
-.Roommate-Pictures {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-  padding: 4rem 5vw;
-  background-color: $background-grey;
-
-  @include mq($from: desktop) {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    margin-top: 4rem;
-  }
-
-  @include mq($from: wide) {
-    padding-left: 25vw;
-    padding-right: 25vw;
-  }
-}
-
-.Roommate-Pictures--accent {
-  @extend  .Roommate-Pictures;
-  background-color: $roommate-accent;
+.Background-light {
   margin-top: 0;
-}
-
-.Roommate-Pictures--multiple {
-  @extend .Roommate-Pictures;
   background-color: $background-light;
-  justify-content: space-between;
+}
+
+.Background-accent {
   margin-top: 0;
-
-  @include mq($from: desktop) {
-    flex-direction: row;
-  }
-}
-
-.Roommate-Picture {
-  display: flex;
-  align-self: center;
-}
-
-.Roommate-Picture--large {
-  @extend .Roommate-Picture;
-  width: 200px;
-  height: 396px;
-
-  @include mq($from: desktop) {
-    width: 30vw;
-    max-width: 353.5px;
-    height: 59.4vw;
-    max-height: 700px;
-  }
-}
-
-.Roommate-Picture--small {
-  @extend .Roommate-Picture;
-  width: 50vw;
-  height: 99vw;
-
-  &:not(:first-of-type) {
-    @include mq($until: desktop) {
-      margin-top: 2rem;
-    }
-  }
-
-  @include mq($from: desktop) {
-    width: 22.5vw;
-    height: 44.6vw;
-  }
-
-  @include mq($from: wide) {
-    width: 15vw;
-    height: 29.7vw;
-  }
+  background-color: $roommate-accent;
 }

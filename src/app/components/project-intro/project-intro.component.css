@@ -3,7 +3,8 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-bottom: 4rem; }
 
 .ProjectIntro-Text {
   display: flex;
