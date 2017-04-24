@@ -653,11 +653,14 @@ img[height] {
       padding: 8rem 25vw; } }
 
 .Picture-Container--multiple {
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   @media (min-width: 61.25em) {
     .Picture-Container--multiple {
       flex-direction: row;
       flex-wrap: wrap; } }
+  .Picture-Container--multiple h3 {
+    flex: 0 0 100%; }
 
 .Project-Picture, .Project-PictureMobile--large, .Project-PictureMobile--small {
   display: flex;
@@ -699,9 +702,13 @@ img[height] {
   margin-top: .5rem;
   margin-left: .5rem; }
 
-.Picture-Heading--multiple {
-  display: flex;
-  flex: 0 0 100%; }
+.Picture-ClubMate {
+  width: 12.5rem;
+  height: 11.875rem; }
+
+.Picture-LoopBack {
+  width: 12.5rem;
+  height: 12.5rem; }
 
 /* ==========================================================================
    #TABLES

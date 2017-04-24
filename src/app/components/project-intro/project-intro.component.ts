@@ -18,7 +18,6 @@ export class ProjectIntroComponent implements OnInit {
   constructor(private projectService: ProjectService) {}
 
   ngOnInit(): void {
-
     this.getProject();
   }
 

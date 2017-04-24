@@ -19,6 +19,7 @@ import { ProjectIntroComponent } from './components/project-intro/project-intro.
 import {ProjectService} from "./services/project-service/project.service";
 import {ProjectNavigationComponent} from "./components/project-navigation/project-navigation.component";
 import { ProjectStatsComponent } from './components/project-stats/project-stats.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ProjectStatsComponent } from './components/project-stats/project-stats.
     ProjectIntroComponent,
     ProjectNavigationComponent,
     ProjectStatsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

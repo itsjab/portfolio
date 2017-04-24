@@ -36,10 +36,15 @@ img[height] {  /* [1] */
 .Picture-Container--multiple {
   @extend .Picture-Container;
   justify-content: space-between;
+  align-items: center;
 
   @include mq($from: desktop) {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  h3 {
+    flex: 0 0 100%;
   }
 }
 
@@ -96,7 +101,12 @@ img[height] {  /* [1] */
   margin-left: .5rem;
 }
 
-.Picture-Heading--multiple {
-  display: flex;
-  flex: 0 0 100%;
+.Picture-ClubMate {
+  width: 12.5rem;
+  height: 11.875rem;
+}
+
+.Picture-LoopBack {
+  width: 12.5rem;
+  height: 12.5rem;
 }
