@@ -3,7 +3,16 @@
   <project-intro [select]="'social-ride'"></project-intro>
   <project-navigation [index]="4" [previous]="'buntes-deutschland'" [next]="'tim'"></project-navigation>
   <div class="Picture-Container">
-    <img class="Project-Picture" src="../../../assets/images/social-ride-home.png" alt="Home screen of Social Ride">
+    <img class="Project-Picture" src="../../../assets/images/social-ride-home.png" alt="Home screen of SocialRide">
     <div class="Picture-Caption">Home screen of the Social Ride web page</div>
   </div>
+  <app-project-stats [select]="'social-ride'"></app-project-stats>
+  <div class="Picture-Container--multiple">
+    <h3 class="Section-Heading">Mobile first is key</h3>
+    <img class="Project-PictureMobile--small" src="../../../assets/images/social-ride-team-mobile.png" alt="The team of SocialRide">
+    <img class="Project-PictureMobile--small" src="../../../assets/images/social-ride-philosophy-mobile.png" alt="The philosophy of SocialRide: mobility means freedom">
+    <img class="Project-PictureMobile--small" src="../../../assets/images/social-ride-insta-mobile.png" alt="The instagram account of SocialRide: social_ride">
+    <div class="Picture-Caption">Refugees generally use mobile devices and do not have regular access to laptops and desktop PCs.</div>
+  </div>
+  <app-footer [project]="'socialride'"></app-footer>
 </section>

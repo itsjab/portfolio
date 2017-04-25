@@ -24,7 +24,7 @@ export class ProjectIntroComponent implements OnInit {
   getProject(): void {
     this.projectService
       .getSpecificProject(this.select)
-      .then(project => {console.log(this.select), this.project = project, console.log(project)})
+      .then(project => this.project = project)
   }
 
 }
