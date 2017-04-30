@@ -11,7 +11,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { SchipsComponent } from './components/schips/schips.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FrozenSeaComponent } from './components/frozen-sea/frozen-sea.component';
-import { BuntesDeutschlandComponent } from './buntes-deutschland/buntes-deutschland.component';
+import { BuntesDeutschlandComponent } from './components/buntes-deutschland/buntes-deutschland.component';
 import { SocialRideComponent } from './components/social-ride/social-ride.component';
 import { TimComponent } from './components/tim/tim.component';
 import { RoommateComponent } from './components/roommate/roommate.component';

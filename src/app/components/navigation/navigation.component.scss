@@ -16,6 +16,10 @@ nav {
     li {
 
       cursor: pointer;
+      text-decoration: none;
+      display: block;
+      font-size: 20px;
+      padding: 1.25em;
 
       &:hover:not(:first-of-type) {
         color: lighten(black, 10%);
@@ -26,15 +30,6 @@ nav {
       }
 
     }
-
-    a {
-      text-decoration: none;
-      display: block;
-      font-size: 20px;
-      padding: 1.25em;
-    }
-
-
   }
 
 
