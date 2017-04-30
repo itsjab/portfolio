@@ -1,0 +1,40 @@
+.Project-Stats {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 5vw; }
+  @media (min-width: 61.25em) {
+    .Project-Stats {
+      flex-direction: row;
+      padding: 10rem 10vw; } }
+  @media (min-width: 81.25em) {
+    .Project-Stats {
+      padding: 10rem 25vw; } }
+
+.Project-Stat {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center; }
+  @media (max-width: 61.24em) {
+    .Project-Stat:not(:first-of-type) {
+      margin-top: 4rem; } }
+  @media (min-width: 61.25em) {
+    .Project-Stat:not(:first-of-type) {
+      padding-left: 5rem; } }
+  .Project-Stat h3 {
+    margin: 1rem 0 .5rem 0 !important; }
+  .Project-Stat div {
+    text-align: center; }
+
+.Project-StatImage {
+  width: 2.5rem; }
+
+.Project-Stats--Frozen {
+  background-color: #FFAB40; }
+
+.Project-Stats--SocialRide {
+  background-color: #963343;
+  color: #fff; }
+
+/*# sourceMappingURL=project-stats.component.css.map */

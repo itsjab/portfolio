@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,cAAe;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,OAAO,EAAE,QAAQ;EC0NX,2BAAqC;ID7N7C,cAAe;MAMX,cAAc,EAAE,GAAG;MACnB,OAAO,EAAE,UAAU;ECsNf,2BAAqC;ID7N7C,cAAe;MAWX,OAAO,EAAE,UAAU;;AAIvB,aAAc;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,IAAI,EAAE,CAAC;EACP,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;ECyMb,2BAAqC;IDvM3C,iCAAsB;MAElB,UAAU,EAAE,IAAI;ECqMd,2BAAqC;IDvM3C,iCAAsB;MAMlB,YAAY,EAAE,IAAI;EAItB,gBAAG;IACD,MAAM,EAAE,yBAAyB;EAGnC,iBAAI;IACF,UAAU,EAAE,MAAM;;AAItB,kBAAmB;EACjB,KAAK,EAAE,MAAM;;AAGf,sBAAuB;EACrB,gBAAgB,EEhCF,OAAO;;AFmCvB,0BAA2B;EACzB,gBAAgB,EElCE,OAAqB;EFmCvC,KAAK,EE3CY,IAAI",
+"sources": ["project-stats.component.scss","../../../../node_modules/sass-mq/_mq.scss","../../../styles/settings/_settings.global.scss"],
+"names": [],
+"file": "project-stats.component.css"
+}

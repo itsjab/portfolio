@@ -1,0 +1,56 @@
+@import "../../../../node_modules/sass-mq/mq";
+@import "../../../styles/settings/settings.global";
+
+.Project-Stats {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 5vw;
+
+  @include mq($from: desktop) {
+    flex-direction: row;
+    padding: 10rem 10vw;
+  }
+
+  @include mq($from: wide) {
+    padding: 10rem 25vw;
+  }
+}
+
+.Project-Stat {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+
+  &:not(:first-of-type) {
+    @include mq($until: desktop) {
+      margin-top: 4rem;
+    }
+
+    @include mq($from: desktop) {
+      padding-left: 5rem;
+    }
+  }
+
+  h3 {
+    margin: 1rem 0 .5rem 0 !important;
+  }
+
+  div {
+    text-align: center;
+  }
+}
+
+.Project-StatImage {
+  width: 2.5rem;
+}
+
+.Project-Stats--Frozen {
+  background-color: $frozen-accent;
+}
+
+.Project-Stats--SocialRide {
+  background-color: $socialRide-accent;
+  color: $background-light;
+}

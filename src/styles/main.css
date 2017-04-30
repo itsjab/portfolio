@@ -618,6 +618,9 @@ h3 {
 .Section-Heading {
   font-size: 1.5rem; }
 
+.Section-Description {
+  margin-top: 0; }
+
 .light {
   color: #fff; }
 
@@ -625,6 +628,16 @@ h3 {
   p {
     margin-top: 2rem;
     font-size: 1.25rem; } }
+
+a {
+  text-decoration: none; }
+
+a.Link--inline {
+  color: #40C4FF; }
+  a.Link--inline:visited {
+    color: #40C4FF; }
+  a.Link--inline:hover {
+    color: #2b3965; }
 
 img {
   max-width: 100%;

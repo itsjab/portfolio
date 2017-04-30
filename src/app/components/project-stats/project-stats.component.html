@@ -1,0 +1,19 @@
+<section class="Project-Stats" [ngClass]="{'Project-Stats--Frozen': frozen, 'Project-Stats--SocialRide': socialRide}">
+
+  <div class="Project-Stat">
+    <img class="Project-StatImage" [src]="project?.stats.stat1.image">
+    <h3>{{ project?.stats.stat1.title }}</h3>
+    <div>{{ project?.stats.stat1.description }}</div>
+  </div>
+  <div class="Project-Stat">
+    <img class="Project-StatImage" [src]="project?.stats.stat2.image">
+    <h3>{{ project?.stats.stat2.title }}</h3>
+    <div>{{ project?.stats.stat2.description }}</div>
+  </div>
+  <div class="Project-Stat">
+    <img class="Project-StatImage" [src]="project?.stats.stat3.image">
+    <h3>{{ project?.stats.stat3.title }}</h3>
+    <div>{{ project?.stats.stat3.description }}</div>
+  </div>
+
+</section>

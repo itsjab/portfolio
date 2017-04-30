@@ -1,0 +1,30 @@
+@import "../../../../node_modules/sass-mq/mq";
+@import "../../../styles/settings/settings.global";
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+  color: $background-light;
+
+  li:not(:first-of-type) {
+    margin-left: 2.5rem;
+  }
+}
+
+.Footer-Roommate {
+  background-color: $roommate-accent-light;
+}
+
+.Footer-Frozen {
+  background-color: $roommate-accent;
+}
+
+.Footer-Festival {
+  background-color: $festival-accent;
+}
+
+.Footer-SocialRide {
+  background-color: $socialRide-primary;
+}
