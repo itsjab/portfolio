@@ -23,3 +23,23 @@
   right: 2.5rem;
 }
 
+.ProjectNavigationMobile {
+  display: flex;
+  flex-direction: column;
+
+  @include mq($from: desktop) {
+    display: none;
+  }
+
+  .ProjectNavigationMobile-Project {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+
+    &:not(:first-of-type) {
+      padding-top: 0;
+    }
+  }
+}

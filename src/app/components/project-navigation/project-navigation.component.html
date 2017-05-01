@@ -1,6 +1,19 @@
+<!-- START desktop navigation -->
 <div class="ProjectNavigation ProjectNavigation--left" *ngIf="index > 1" (click)="selectPreviousProject()">
     <i class="material-icons">keyboard_arrow_left</i>
 </div>
 <div class="ProjectNavigation ProjectNavigation--right" *ngIf="index < 6" (click)="selectNextProject()">
     <i class="material-icons">keyboard_arrow_right</i>
 </div>
+<!-- END desktop navigation -->
+
+<!-- START mobile navigation
+<section class="ProjectNavigationMobile">
+  <div class="ProjectNavigationMobile-Project" *ngIf="index > 1" (click)="selectPreviousProject()">
+    <div>Previous Project</div>
+  </div>
+  <div class="ProjectNavigationMobile-Project" *ngIf="index < 6" (click)="selectNextProject()">
+    <div>Next Project</div>
+  </div>
+</section>
+END mobile navigation -->

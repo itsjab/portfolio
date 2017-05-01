@@ -12,7 +12,7 @@ export class ProjectNavigationComponent {
   @Input() next: string;
   @Input() index: number;
 
-  constructor(private router: Router,) {}
+  constructor(private router: Router) {}
 
   selectPreviousProject(): void {
     this.router.navigate([this.previous]);

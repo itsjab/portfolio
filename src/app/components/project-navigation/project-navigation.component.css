@@ -15,4 +15,19 @@
 .ProjectNavigation--right {
   right: 2.5rem; }
 
+.ProjectNavigationMobile {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 61.25em) {
+    .ProjectNavigationMobile {
+      display: none; } }
+  .ProjectNavigationMobile .ProjectNavigationMobile-Project {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0; }
+    .ProjectNavigationMobile .ProjectNavigationMobile-Project:not(:first-of-type) {
+      padding-top: 0; }
+
 /*# sourceMappingURL=project-navigation.component.css.map */
