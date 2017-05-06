@@ -1,7 +1,25 @@
 <section>
-
+  <project-intro [select]="'tim'"></project-intro>
+  <div class="Picture-ContainerWithDescription">
+    <h3>Create and edit studies on the go</h3>
+    <img class="Project-PictureMobile--small" src="../../../assets/images/tim-navigation.png" alt="Home screen of Frozen Sea on an iPhone 7">
+    <div class="Project-PictureDescription">
+      <div class="Project-PictureDescriptionParagraph">
+        <h3>Design</h3>
+        <p>TIM turns static process models into an automated human workflow.</p>
+      </div>
+      <div class="Project-PictureDescriptionParagraph">
+        <h3>Automate</h3>
+        <p>Keep track of your instances at all times in My Instances. Finish your tasks on the fly in My Tasks</p>
+      </div>
+      <div class="Project-PictureDescriptionParagraph">
+        <h3>Improve</h3>
+        <p>A picture is worth more than thousand words. Visualize the progress of your instances in interactive Gantt Charts or create custom visualizations in Business Activity Reporting.</p>
+      </div>
+    </div>
+  </div>
   <project-navigation [index]="5" [previous]="'social-ride'" [next]="'roommate'"></project-navigation>
-
+  <app-footer [project]="'tim'"></app-footer>
 </section>
 
 
