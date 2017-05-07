@@ -17,7 +17,7 @@
  *
  * SETTINGS
  * Config...............Project-level configuration and feature switches.
- * Core.................inuitcssÔÇÖ core and setup settings.
+ * Core.................inuitcss’ core and setup settings.
  * Global...............Project-wide variables and settings.
  *
  * TOOLS
@@ -26,17 +26,17 @@
  * Font-size............A mixin which guarantees baseline-friendly line-heights.
  * Clearfix.............Micro clearfix mixin.
  * Hidden...............Mixin for hiding elements.
- * Sass MQ..............inuitcssÔÇÖ default media query manager.
+ * Sass MQ..............inuitcss’ default media query manager.
  *
  * GENERIC
  * Box-sizing...........Better default `box-sizing`.
- * Normalize.css........A level playing field using @necolasÔÇÖ Normalize.css.
+ * Normalize.css........A level playing field using @necolas’ Normalize.css.
  * Reset................A tiny reset to complement Normalize.css.
  * Shared...............Sensibly and tersely share some global commonalities
  *                      (particularly useful when managing vertical rhythm).
  *
  * ELEMENTS
- * Page.................Set up our documentÔÇÖs default `font-size` and
+ * Page.................Set up our document’s default `font-size` and
  *                      `line-height`.
  * Headings.............Very minimal (i.e. only font-size information) for
  *                      headings 1 through 6.
@@ -569,7 +569,7 @@ dd, ol, ul {
  * 1. Set the default `font-size` and `line-height` for the entire project,
  *    sourced from our default variables. The `font-size` is calculated to exist
  *    in ems, the `line-height` is calculated to exist unitlessly.
- * 2. Force scrollbars to always be visible to prevent awkward ÔÇÿjumpsÔÇÖ when
+ * 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
  *    navigating between pages that do/do not have enough content to produce
  *    scrollbars naturally.
  * 3. Ensure the page always fills at least the entire height of the viewport.
@@ -648,7 +648,7 @@ img {
   /* [3] */ }
 
 /**
- * 1. If a `width` and/or `height` attribute have been explicitly defined, letÔÇÖs
+ * 1. If a `width` and/or `height` attribute have been explicitly defined, let’s
  *    not make the image fluid.
  */
 img[width],
@@ -659,6 +659,7 @@ img[height] {
 .Picture-Container, .Picture-Container--multiple, .Picture-ContainerWithDescription {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 4rem 5vw;
   background-color: #f6f6f6; }
   @media (min-width: 61.25em) {
@@ -669,7 +670,6 @@ img[height] {
       padding: 8rem 25vw; } }
 
 .Picture-Container--multiple {
-  justify-content: space-between;
   align-items: center; }
   @media (min-width: 61.25em) {
     .Picture-Container--multiple {
@@ -679,21 +679,18 @@ img[height] {
     flex: 0 0 100%; }
 
 .Picture-ContainerWithDescription {
-  flex-direction: row;
-  justify-content: space-between; }
-  .Picture-ContainerWithDescription h3 {
-    flex: 0 0 100%; }
-
-.Project-PictureDescription {
   display: flex;
-  flex-direction: column;
-  padding-left: 2.5rem; }
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; }
 
 .Project-PictureDescriptionParagraph {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-bottom: 1rem; }
   .Project-PictureDescriptionParagraph h3 {
-    margin-bottom: 1.5rem; }
+    margin-bottom: .5rem; }
   .Project-PictureDescriptionParagraph p {
     margin-top: 0; }
 
@@ -1120,8 +1117,8 @@ table {
 /* Reversed flag.
    ========================================================================== */
 /**
- * 1. Swap the rendered direction of the objectÔÇª
- * 2. ÔÇªand reset it.
+ * 1. Swap the rendered direction of the object…
+ * 2. …and reset it.
  * 3. Reassign margins to the correct sides.
  */
 .o-flag--reverse {
@@ -1338,8 +1335,8 @@ table {
 /**
  * Apply this class to the content (usually `img`) that needs cropping.
  *
- * 1. ImageÔÇÖs default positioning is top-left in the cropping box.
- * 2. Make sure the media doesnÔÇÖt stop itself too soon.
+ * 1. Image’s default positioning is top-left in the cropping box.
+ * 2. Make sure the media doesn’t stop itself too soon.
  */
 .o-crop__content {
   position: absolute;
@@ -1594,7 +1591,7 @@ table {
    ========================================================================== */
 /**
  * inuitcss generates a series of utility classes that give a fluid width to
- * whichever element theyÔÇÖre applied, e.g.:
+ * whichever element they’re applied, e.g.:
  *
  *   <img src="" alt="" class="u-1/2" />
  *
@@ -1899,7 +1896,7 @@ table {
   /* [1] */ }
 
 /**
- * If weÔÇÖre using Sass-MQ, automatically generate grid system(s) for each of our
+ * If we’re using Sass-MQ, automatically generate grid system(s) for each of our
  * defined breakpoints, and give them a Responsive Suffix, e.g.:
  *
  * <div class="u-3/12@mobile">

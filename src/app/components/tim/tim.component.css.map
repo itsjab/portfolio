@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,CAAE;EACA,KAAK,ECmBO,OAAO;;ADhBrB,eAAgB;EACd,gBAAgB,ECeJ,OAAO;EDdnB,KAAK,EAAE,IAAI",
+"sources": ["tim.component.scss","../../../styles/settings/_settings.global.scss"],
 "names": [],
 "file": "tim.component.css"
 }
