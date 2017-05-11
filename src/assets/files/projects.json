@@ -7,10 +7,10 @@
       "image": "src/assets/images/festival-16-9.jpg"
     },
     "intro": {
-      "title": "Schips - highly addictive potato chips",
-      "description": "Schips is an idea a friend and I came up with on a party. Everywhere you looked where these blend, generic potato chips that taste like card board. What if we could provide great tasting, highly addictive chips that use the freshest locally sourced ingredients.\n\nAs it is with many party ideas, Schips remains to be a dream yet waiting to come alive. Anyways, I created a few designs to showcase Schips. Check them out below.",
-      "client": "None (personal project)",
-      "role": "Designer",
+      "title": "An unadjusted festival for unadjusted art",
+      "description": "The Festival für Unangepasste Kunst (unadjusted art) is a yearly event in Munich showcasing your not so normal artists. The festival is hosted by german trash art artist ADLER A.F. together with Jessica Petraccaro-Goertsches and several other LMU employees.\n\nDuring a design workshop at LMU we had the chance to create a mobile application that accompanies festival. The app containes information about the three weekends covering the topics democracy, power, and participation.\n\nWhile designing and building the app, we tried to capture the unadjusted atmosphere of the festival and its artists.",
+      "client": "LMU (University project)",
+      "role": "Designer & Developer",
       "year": "2016"
     }
   },

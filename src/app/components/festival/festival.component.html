@@ -1,3 +1,22 @@
-<p>
-  festival works!
-</p>
+<section>
+
+  <project-intro [select]="'festival'"></project-intro>
+  <div class="Picture-Container">
+    <img class="Project-Picture" src="../../../assets/images/festival-grey-16-9.png" alt="Festival für unangepasste Kunst poster">
+    <div class="Picture-Caption">A poster for the festival</div>
+  </div>
+  <div class="Picture-Container--multiple Background-light">
+    <h3>Democracy, power, and participation</h3>
+    <img class="Project-PictureMobile--small" src="../../../assets/images/festival-artist-mobile.png" alt="Home screen of Frozen Sea on an iPhone 7">
+    <img class="Project-PictureMobile--small" src="../../../assets/images/festival-ar-mobile.png" alt="Creating a study in Frozen Sea on an iPhone 7">
+    <img class="Project-PictureMobile--small" src="../../../assets/images/festival-artists-mobile.png" alt="Editing a study in Frozen Sea on an iPhone 7">
+    <div class="Picture-Caption">The app design captures the unadjusted spirit of the festival</div>
+  </div>
+  <div class="Picture-Container">
+    <img class="Project-Picture" src="../../../assets/images/festival-16-9.jpg" alt="Festival für unangepasste Kunst poster">
+    <div class="Picture-Caption">A poster for the festival</div>
+  </div>
+  <project-navigation [index]="1" [next]="'frozen-sea'"></project-navigation>
+  <app-footer [project]="'festival'"></app-footer>
+
+</section>

@@ -27,7 +27,7 @@ export class FooterComponent implements OnInit {
       case 'frozen':
         this.frozen = true;
         break;
-      case 'schips':
+      case 'festival':
         this.festival = true;
         break;
       case 'tim':
