@@ -8,7 +8,6 @@ import { AppRoutingModule } from "./app-routing.module";
 import { ProjectListComponent } from './components/project-list/project-list.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
-import { SchipsComponent } from './components/schips/schips.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FrozenSeaComponent } from './components/frozen-sea/frozen-sea.component';
 import { BuntesDeutschlandComponent } from './components/buntes-deutschland/buntes-deutschland.component';
@@ -20,6 +19,7 @@ import {ProjectService} from "./services/project-service/project.service";
 import {ProjectNavigationComponent} from "./components/project-navigation/project-navigation.component";
 import { ProjectStatsComponent } from './components/project-stats/project-stats.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FestivalComponent } from './components/festival/festival.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,6 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjectListComponent,
     IntroComponent,
     NavigationComponent,
-    SchipsComponent,
     ProjectsComponent,
     FrozenSeaComponent,
     BuntesDeutschlandComponent,
@@ -38,6 +37,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjectNavigationComponent,
     ProjectStatsComponent,
     FooterComponent,
+    FestivalComponent,
   ],
   imports: [
     BrowserModule,

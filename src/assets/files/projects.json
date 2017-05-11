@@ -1,10 +1,10 @@
 [
   {
-    "id": "schips",
+    "id": "festival",
     "main": {
-      "title": "Schips",
+      "title": "Festival für unangepasste Kunst",
       "description": "Experience these highly addictive potato chips",
-      "image": "src/assets/images/chips-16-9.png"
+      "image": "src/assets/images/festival-16-9.jpg"
     },
     "intro": {
       "title": "Schips - highly addictive potato chips",
