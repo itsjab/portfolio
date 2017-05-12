@@ -1,10 +1,18 @@
 <!-- START main navigation -->
-<nav>
+<nav class="Navigation--desktop">
 
-  <ul class="navigation o-list-inline">
+  <ul class="Navigation o-list-inline">
     <li class="o-list-inline__item" (click)="navigateToHome()">Logo</li>
-    <li class="o-list-inline__item">Work</li>
+    <li class="o-list-inline__item" (click)="navigateToHome()">Work</li>
     <li class="o-list-inline__item" (click)="navigateToAbout()">About</li>
+  </ul>
+
+</nav>
+
+<nav class="Navigation--mobile">
+
+  <ul class="Navigation o-list-inline">
+    <li class="o-list-inline__item">Logo</li>
   </ul>
 
 </nav>

@@ -1,20 +1,30 @@
-nav .navigation {
+.Navigation {
   margin: 0 1.5rem;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap; }
-  nav .navigation li {
+  flex-flow: row wrap; }
+  .Navigation li {
     cursor: pointer;
     text-decoration: none;
     display: block;
-    font-size: 20px;
-    padding: 1.25em; }
-    nav .navigation li:hover:not(:first-of-type) {
+    font-size: 1.25rem;
+    padding: 1.5rem 0; }
+    .Navigation li:hover:not(:first-of-type) {
       color: #1a1a1a; }
-    nav .navigation li:first-of-type {
-      margin-right: auto; }
+    @media (min-width: 61.25em) {
+      .Navigation li:first-of-type {
+        margin-right: auto;
+        padding: 1.5rem; } }
+
+.Navigation--desktop {
+  display: none; }
+  @media (min-width: 61.25em) {
+    .Navigation--desktop {
+      display: block; } }
+
+.Navigation--mobile {
+  display: block; }
+  @media (min-width: 61.25em) {
+    .Navigation--mobile {
+      display: none; } }
 
 /*# sourceMappingURL=navigation.component.css.map */

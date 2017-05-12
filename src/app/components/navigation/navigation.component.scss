@@ -1,37 +1,45 @@
 @import '../../../../node_modules/sass-mq/mq';
 
-nav {
+.Navigation {
+  margin: 0 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
 
-  .navigation {
+  li {
 
-    margin: 0 1.5rem;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    font-size: 1.25rem;
+    padding: 1.5rem 0;
 
-    -webkit-flex-flow: row wrap;
+    &:hover:not(:first-of-type) {
+      color: lighten(black, 10%);
+    }
 
-    li {
-
-      cursor: pointer;
-      text-decoration: none;
-      display: block;
-      font-size: 20px;
-      padding: 1.25em;
-
-      &:hover:not(:first-of-type) {
-        color: lighten(black, 10%);
-      }
-
+    @include mq($from: desktop) {
       &:first-of-type {
         margin-right: auto;
+        padding: 1.5rem;
       }
-
     }
   }
+}
 
+.Navigation--desktop {
+  display: none;
 
+  @include mq($from: desktop) {
+    display: block;
+  }
+
+}
+
+.Navigation--mobile {
+  display: block;
+
+  @include mq($from: desktop) {
+    display: none;
+  }
 
 }
