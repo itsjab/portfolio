@@ -1,30 +1,51 @@
-.Navigation {
+.TopNavigation {
   margin: 0 1.5rem;
   display: flex;
   flex-flow: row wrap; }
-  .Navigation li {
+  .TopNavigation li {
     cursor: pointer;
-    text-decoration: none;
     display: block;
     font-size: 1.25rem;
     padding: 1.5rem 0; }
-    .Navigation li:hover:not(:first-of-type) {
+    .TopNavigation li:hover:not(:first-of-type) {
       color: #1a1a1a; }
     @media (min-width: 61.25em) {
-      .Navigation li:first-of-type {
-        margin-right: auto;
-        padding: 1.5rem; } }
+      .TopNavigation li {
+        padding: 1.5rem; }
+        .TopNavigation li:first-of-type {
+          margin-right: auto; } }
 
-.Navigation--desktop {
+.DesktopNavigation {
   display: none; }
   @media (min-width: 61.25em) {
-    .Navigation--desktop {
+    .DesktopNavigation {
       display: block; } }
 
-.Navigation--mobile {
+.MobileNavigation {
   display: block; }
   @media (min-width: 61.25em) {
-    .Navigation--mobile {
+    .MobileNavigation {
       display: none; } }
+
+.MobileNavigation-SideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 2.5rem;
+  transition: .5s;
+  background-color: #fff; }
+  .MobileNavigation-SideNav li:not(:first-of-type) {
+    font-size: 1.25rem;
+    padding: 1.5rem; }
+  .MobileNavigation-SideNav .CloseButton {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    margin-left: 3rem; }
 
 /*# sourceMappingURL=navigation.component.css.map */

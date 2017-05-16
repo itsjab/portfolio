@@ -18,4 +18,12 @@ export class NavigationComponent {
   navigateToAbout(): void {
     this.router.navigate(['/about'])
   }
+
+  openSideNavigation(): void {
+    document.getElementById('sideNav').style.width = '15rem';
+  }
+
+  closeSideNavigation(): void {
+    document.getElementById('sideNav').style.width = '0';
+  }
 }

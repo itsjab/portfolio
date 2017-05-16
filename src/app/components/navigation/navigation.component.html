@@ -1,7 +1,7 @@
 <!-- START main navigation -->
-<nav class="Navigation--desktop">
+<nav class="DesktopNavigation">
 
-  <ul class="Navigation o-list-inline">
+  <ul class="TopNavigation o-list-inline">
     <li class="o-list-inline__item" (click)="navigateToHome()">Logo</li>
     <li class="o-list-inline__item" (click)="navigateToHome()">Work</li>
     <li class="o-list-inline__item" (click)="navigateToAbout()">About</li>
@@ -9,10 +9,20 @@
 
 </nav>
 
-<nav class="Navigation--mobile">
+<nav class="MobileNavigation">
 
-  <ul class="Navigation o-list-inline">
-    <li class="o-list-inline__item">Logo</li>
+  <ul class="TopNavigation o-list-inline">
+    <li class="o-list-inline__item" (click)="openSideNavigation()">Logo</li>
   </ul>
 
+  <div class="MobileNavigation-SideNav" id="sideNav">
+    <ul>
+      <li class="o-list-bare CloseButton" (click)="closeSideNavigation()"><i class="material-icons">close</i></li>
+      <li class="o-list-bare">Work</li>
+      <li class="o-list-bare">About</li>
+    </ul>
+  </div>
+
 </nav>
+
+
