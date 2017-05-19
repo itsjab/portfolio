@@ -1,0 +1,64 @@
+.About-Content {
+  display: flex;
+  margin: auto;
+  flex-flow: column wrap; }
+  @media (max-width: 46.24em) {
+    .About-Content {
+      width: 300px;
+      margin-top: 2.5rem;
+      justify-content: center; } }
+  @media (min-width: 46.25em) and (max-width: 61.24em) {
+    .About-Content {
+      width: 640px;
+      margin-top: 2.5rem; } }
+  @media (min-width: 61.25em) and (max-width: 81.24em) {
+    .About-Content {
+      width: 960px;
+      margin-top: 2.5rem; } }
+  @media (min-width: 81.25em) {
+    .About-Content {
+      width: 1170px;
+      margin-top: 4rem; } }
+
+.About-WorkExperiences {
+  margin-top: 2.5rem; }
+  .About-WorkExperiences h3 {
+    margin-bottom: 0; }
+
+.About-WorkExperience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem; }
+  @media (min-width: 61.25em) {
+    .About-WorkExperience {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start; } }
+  @media (max-width: 46.24em) {
+    .About-WorkExperience img {
+      width: 5rem; } }
+  @media (max-width: 61.24em) {
+    .About-WorkExperience img {
+      width: 7rem; } }
+  @media (min-width: 61.25em) {
+    .About-WorkExperience img {
+      padding: 1rem 2.5rem 0 0;
+      max-width: 12.5rem; } }
+
+.About-WorkExperienceDescription {
+  display: flex;
+  flex-direction: column; }
+  .About-WorkExperienceDescription h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0; }
+  .About-WorkExperienceDescription h4 {
+    margin-top: 0; }
+  .About-WorkExperienceDescription p {
+    margin: 0 0 .5rem 0;
+    font-size: 1rem; }
+  .About-WorkExperienceDescription ul {
+    margin-left: 2.5rem; }
+
+/*# sourceMappingURL=about.component.css.map */

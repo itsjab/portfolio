@@ -8,7 +8,7 @@
   @include mq($until: tablet) {
     width: 300px;
     flex-flow: column wrap;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     justify-content: center;
     text-align: center;
   }
@@ -16,7 +16,7 @@
   @include mq($from: tablet, $until: wide) {
     width: 640px;
     flex-flow: column wrap;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
   }
 
   @include mq($from: wide) {

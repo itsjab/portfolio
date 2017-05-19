@@ -6,14 +6,14 @@
     .Intro {
       width: 300px;
       flex-flow: column wrap;
-      margin-top: 2.5rem;
+      margin-top: 4rem;
       justify-content: center;
       text-align: center; } }
   @media (min-width: 46.25em) and (max-width: 81.24em) {
     .Intro {
       width: 640px;
       flex-flow: column wrap;
-      margin-top: 2.5rem; } }
+      margin-top: 4rem; } }
   @media (min-width: 81.25em) {
     .Intro {
       width: 1170px;
