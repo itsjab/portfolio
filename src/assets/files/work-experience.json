@@ -1,0 +1,47 @@
+[
+  {
+    "image": "../../../assets/images/logo-check24.png",
+    "title": "Working student at CHECK24 in Munich",
+    "duration": "January 2017 - today",
+    "description": "CHECK24 is Germany's largest comparison site for insurances, rental cars, and much more. My tasks at CHECK24 include:",
+    "tasks": [
+      "Web development with React and Angular for large mobile and desktop applications",
+      "Conducting user research and usability tests",
+      "Feature development from requirements engineering over creating mockups to user testing"
+    ]
+  },
+  {
+    "image": "../../../assets/images/logo-tim.jpg",
+    "title": "Working student at TIM Solutions in Munich",
+    "duration": "October 2015 - December 2016",
+    "description": "TIM Solutions is a small software company in Munich specializing in business process automation software. My tasks at TIM Solutions included:",
+    "tasks": [
+      "Web development with React and Angular for large mobile and desktop applications",
+      "Conducting user research and usability tests",
+      "Feature development from requirements engineering over creating mockups to user testing"
+    ]
+  },
+  {
+    "image": "../../../assets/images/logo-tim.jpg",
+    "title": "Internship at TIM Solutions in Munich",
+    "duration": "March 2015 - September 2015",
+    "description": "With my first project at TIM I created the new user interface for the process automation software TIM. The project included the following tasks:",
+    "tasks": [
+      "Conducting a comprehensive requirements analysis",
+      "Creating TIM's UI with Balsamiq based on the gathered requirements",
+      "Continuous  user testing and refinement of the UI",
+      "Creating a high-level, click-able prototype with Sketch and InVision"
+    ]
+  },
+  {
+    "image": "../../../assets/images/logo-agistix.png",
+    "title": "Internship at Agistix Inc. in San Mateo, CA",
+    "duration": "June 2014 - August 2014",
+    "description": "After my semester abroad in Kentucky, I worked as an intern at Agistix Inc., a Silicon Valley startup specializing in logistics software. My tasks at Agistix included:",
+    "tasks": [
+      "Conducting user tests to improve the Agistix's platform",
+      "Creating prototypes for new features for the logistics platform",
+      "Redesign of the website www.agistix.com"
+    ]
+  }
+]

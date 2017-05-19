@@ -2,15 +2,17 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { ProjectsComponent } from './components/projects/projects.component';
-import { FrozenSeaComponent } from './components/frozen-sea/frozen-sea.component';
-import { BuntesDeutschlandComponent } from './components/buntes-deutschland/buntes-deutschland.component';
-import { SocialRideComponent } from './components/social-ride/social-ride.component';
-import { TimComponent } from './components/tim/tim.component';
-import { RoommateComponent } from './components/roommate/roommate.component';
-import {FestivalComponent} from "./components/festival/festival.component";
+import { FrozenSeaComponent } from './pages/frozen-sea/frozen-sea.component';
+import { BuntesDeutschlandComponent } from './pages/buntes-deutschland/buntes-deutschland.component';
+import { SocialRideComponent } from './pages/social-ride/social-ride.component';
+import { TimComponent } from './pages/tim/tim.component';
+import { RoommateComponent } from './pages/roommate/roommate.component';
+import {FestivalComponent} from "./pages/festival/festival.component";
+import {AboutComponent} from "./pages/about/about.component";
 
 const appRoutes: Routes = [
   { path: 'projects',  component: ProjectsComponent },
+  { path: 'about',  component: AboutComponent },
   { path: 'festival', component: FestivalComponent },
   { path: 'frozen-sea', component: FrozenSeaComponent },
   { path: 'buntes-deutschland', component: BuntesDeutschlandComponent },

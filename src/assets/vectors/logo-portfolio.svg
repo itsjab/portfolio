@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="120" cy="120" r="120"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-Mask" transform="translate(8.000000, 8.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FF575F" xlink:href="#path-1"></use>
+                <circle id="Oval" fill="#FF9060" mask="url(#mask-2)" cx="120" cy="120" r="90"></circle>
+                <circle id="Oval" fill="#FFAE61" mask="url(#mask-2)" cx="120" cy="120" r="60"></circle>
+                <circle id="Oval" fill="#FFC161" mask="url(#mask-2)" cx="120" cy="120" r="30"></circle>
+                <circle id="Oval" fill="#008392" mask="url(#mask-2)" cx="73" cy="270" r="120"></circle>
+                <circle id="Oval" fill="#005A65" mask="url(#mask-2)" cx="73" cy="270" r="90"></circle>
+                <circle id="Oval" fill="#003238" mask="url(#mask-2)" cx="73" cy="270" r="60"></circle>
+                <circle id="Oval" fill="#008392" mask="url(#mask-2)" cx="180" cy="240" r="120"></circle>
+                <circle id="Oval" fill="#005A65" mask="url(#mask-2)" cx="180" cy="240" r="90"></circle>
+                <circle id="Oval" fill="#003238" mask="url(#mask-2)" cx="180" cy="240" r="60"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

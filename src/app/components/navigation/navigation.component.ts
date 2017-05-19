@@ -12,18 +12,22 @@ export class NavigationComponent {
   constructor(private router: Router) { }
 
   navigateToHome(): void {
-    this.router.navigate(['/projects'])
+    this.router.navigate(['/projects']);
+    this.closeSideNavigation();
   }
 
   navigateToAbout(): void {
-    this.router.navigate(['/about'])
+    this.router.navigate(['/about']);
+    this.closeSideNavigation();
   }
 
   openSideNavigation(): void {
-    document.getElementById('sideNav').style.width = '15rem';
+    document.getElementById('sideNav').style.width = '14rem';
+    document.getElementById('sideNavOverlay').style.width = '100vw';
   }
 
   closeSideNavigation(): void {
     document.getElementById('sideNav').style.width = '0';
+    document.getElementById('sideNavOverlay').style.width = '0';
   }
 }

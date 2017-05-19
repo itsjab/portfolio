@@ -9,17 +9,19 @@ import { ProjectListComponent } from './components/project-list/project-list.com
 import { IntroComponent } from './components/intro/intro.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { FrozenSeaComponent } from './components/frozen-sea/frozen-sea.component';
-import { BuntesDeutschlandComponent } from './components/buntes-deutschland/buntes-deutschland.component';
-import { SocialRideComponent } from './components/social-ride/social-ride.component';
-import { TimComponent } from './components/tim/tim.component';
-import { RoommateComponent } from './components/roommate/roommate.component';
+import { FrozenSeaComponent } from './pages/frozen-sea/frozen-sea.component';
+import { BuntesDeutschlandComponent } from './pages/buntes-deutschland/buntes-deutschland.component';
+import { SocialRideComponent } from './pages/social-ride/social-ride.component';
+import { TimComponent } from './pages/tim/tim.component';
+import { RoommateComponent } from './pages/roommate/roommate.component';
 import { ProjectIntroComponent } from './components/project-intro/project-intro.component';
 import {ProjectService} from "./services/project-service/project.service";
 import {ProjectNavigationComponent} from "./components/project-navigation/project-navigation.component";
 import { ProjectStatsComponent } from './components/project-stats/project-stats.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { FestivalComponent } from './components/festival/festival.component';
+import { FestivalComponent } from './pages/festival/festival.component';
+import { AboutComponent } from './pages/about/about.component';
+import {WorkService} from "./services/work-service/work.service";
 
 @NgModule({
   declarations: [
@@ -38,6 +40,7 @@ import { FestivalComponent } from './components/festival/festival.component';
     ProjectStatsComponent,
     FooterComponent,
     FestivalComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,7 @@ import { FestivalComponent } from './components/festival/festival.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [ProjectService],
+  providers: [ProjectService, WorkService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

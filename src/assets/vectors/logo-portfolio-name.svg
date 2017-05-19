@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="64px" viewBox="0 0 172 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="32" cy="32" r="32"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <g id="Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-Mask">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FF575F" xlink:href="#path-1"></use>
+                <circle id="Oval" fill="#FF9060" mask="url(#mask-2)" cx="32" cy="32" r="24"></circle>
+                <circle id="Oval" fill="#FFAE61" mask="url(#mask-2)" cx="32" cy="32" r="16"></circle>
+                <circle id="Oval" fill="#FFC161" mask="url(#mask-2)" cx="32" cy="32" r="8"></circle>
+                <circle id="Oval" fill="#008392" mask="url(#mask-2)" cx="19" cy="72" r="32"></circle>
+                <circle id="Oval" fill="#005A65" mask="url(#mask-2)" cx="19" cy="72" r="24"></circle>
+                <circle id="Oval" fill="#003238" mask="url(#mask-2)" cx="19" cy="72" r="16"></circle>
+                <circle id="Oval" fill="#008392" mask="url(#mask-2)" cx="48" cy="64" r="32"></circle>
+                <circle id="Oval" fill="#005A65" mask="url(#mask-2)" cx="48" cy="64" r="24"></circle>
+                <circle id="Oval" fill="#003238" mask="url(#mask-2)" cx="48" cy="64" r="16"></circle>
+            </g>
+            <text id="Jan-Mayer" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#4A4A4A">
+                <tspan x="80" y="39">Jan Mayer</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

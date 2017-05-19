@@ -8,8 +8,9 @@
   @include mq($until: tablet) {
     width: 300px;
     flex-flow: column wrap;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     justify-content: center;
+    text-align: center;
   }
 
   @include mq($from: tablet, $until: wide) {
@@ -38,6 +39,7 @@
     @include mq($from: mobile) {
       width: map-get($mq-breakpoints, mobile) / 1.5;
       height: map-get($mq-breakpoints, mobile) / 1.5;
+      margin-top: 2.5rem;
     }
 
     @include mq($from: desktop) {

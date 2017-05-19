@@ -4,7 +4,7 @@
     "main": {
       "title": "Festival für unangepasste Kunst",
       "description": "Experience these highly addictive potato chips",
-      "image": "src/assets/images/festival-16-9.jpg"
+      "image": "../../assets/images/festival-16-9.jpg"
     },
     "intro": {
       "title": "An unadjusted festival for unadjusted art",
@@ -19,7 +19,7 @@
     "main": {
       "title": "Frozen Sea",
       "description": "A platform that brings researchers and subjects together",
-      "image": "src/assets/images/frozen-sea-16-9.png"
+      "image": "../../assets/images/frozen-sea-16-9.png"
     },
     "intro": {
       "title": "Frozen Sea",
@@ -51,7 +51,7 @@
     "main": {
       "title": "Buntes Deutschland",
       "description": "Battle the rise of right wing populism with colorful stickers",
-      "image": "src/assets/images/buntes-de-16-9.png"
+      "image": "../..//assets/images/buntes-de-16-9.png"
     },
     "intro": {
       "title": "Buntes Deutschland",
@@ -66,7 +66,7 @@
     "main": {
       "title": "Social Ride",
       "description": "SocialRide - a student-run NGO ",
-      "image": "src/assets/images/social-ride-16-9.png"
+      "image": "../..//assets/images/social-ride-16-9.png"
     },
     "intro": {
       "title": "Social Ride - Mobility means freedom",
@@ -98,7 +98,7 @@
     "main": {
       "title": "TIM One of a kind",
       "description": "A modern, lightweight project automation platform",
-      "image": "src/assets/images/tim-16-9.jpg"
+      "image": "../..//assets/images/tim-16-9.jpg"
     },
     "intro": {
       "title": "TIM - a lightweight project automation platform",
@@ -113,7 +113,7 @@
     "main": {
       "title": "Roommate",
       "description": "A fun, tinder-like way of finding your next roommate or shared apartment",
-      "image": "src/assets/images/roommate-16-9.png"
+      "image": "../../assets/images/roommate-16-9.png"
     },
     "intro": {
       "title": "Roommate - swipe to your next roommate",

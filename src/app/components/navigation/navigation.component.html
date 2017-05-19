@@ -2,7 +2,7 @@
 <nav class="DesktopNavigation">
 
   <ul class="TopNavigation o-list-inline">
-    <li class="o-list-inline__item" (click)="navigateToHome()">Logo</li>
+    <li class="o-list-inline__item" (click)="navigateToHome()"><img class="TopNavigation-Logo" src="../../../assets/images/logo-portfolio.png">Jan Mayer</li>
     <li class="o-list-inline__item" (click)="navigateToHome()">Work</li>
     <li class="o-list-inline__item" (click)="navigateToAbout()">About</li>
   </ul>
@@ -12,16 +12,18 @@
 <nav class="MobileNavigation">
 
   <ul class="TopNavigation o-list-inline">
-    <li class="o-list-inline__item" (click)="openSideNavigation()">Logo</li>
+    <li class="o-list-inline__item" (click)="openSideNavigation()"><img class="TopNavigation-Logo" src="../../../assets/images/logo-portfolio.png">Jan Mayer</li>
   </ul>
 
   <div class="MobileNavigation-SideNav" id="sideNav">
     <ul>
-      <li class="o-list-bare CloseButton" (click)="closeSideNavigation()"><i class="material-icons">close</i></li>
+      <li class="o-list-inline__item" (click)="navigateToHome()"><img class="TopNavigation-Logo" src="../../../assets/images/logo-portfolio.png">Jan Mayer</li>
       <li class="o-list-bare">Work</li>
       <li class="o-list-bare">About</li>
     </ul>
   </div>
+
+  <div class="MobileNavigation-SideNavOverlay" id="sideNavOverlay" (click)="closeSideNavigation()"></div>
 
 </nav>
 

@@ -6,8 +6,9 @@
     .Intro {
       width: 300px;
       flex-flow: column wrap;
-      margin-top: 1.5rem;
-      justify-content: center; } }
+      margin-top: 2.5rem;
+      justify-content: center;
+      text-align: center; } }
   @media (min-width: 46.25em) and (max-width: 81.24em) {
     .Intro {
       width: 640px;
@@ -28,7 +29,8 @@
     @media (min-width: 20em) {
       .Intro-picture img {
         width: 213.33333px;
-        height: 213.33333px; } }
+        height: 213.33333px;
+        margin-top: 2.5rem; } }
     @media (min-width: 61.25em) {
       .Intro-picture img {
         width: 245px;

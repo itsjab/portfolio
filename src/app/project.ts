@@ -1,7 +1,3 @@
-/**
- * Created by Jan on 03.03.2017.
- */
-
 export interface Project {
   id: string;
   main: {
