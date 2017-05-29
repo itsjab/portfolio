@@ -79,17 +79,17 @@
       "stat1": {
         "image": "../../../assets/vectors/repair-white.svg",
         "title": "200 repaired bikes",
-        "description": "Create your own experiments on the fly"
+        "description": ""
       },
       "stat2": {
         "image": "../../../assets/vectors/bike-white.svg",
         "title": "15 refurbished bikes",
-        "description": "Earn study hours, money, or gift cards"
+        "description": ""
       },
       "stat3": {
         "image": "../../../assets/vectors/participate-white.svg",
         "title": "40 workshops held",
-        "description": "Share your experiments on social media"
+        "description": ""
       }
     }
   },

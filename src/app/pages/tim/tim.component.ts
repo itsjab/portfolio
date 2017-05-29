@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {HelperService} from "../../services/helper-service/helper.service";
 
 @Component({
   selector: 'app-tim',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimComponent implements OnInit {
 
-  constructor() { }
+  constructor(private helperService: HelperService) { }
 
   ngOnInit() {
+    this.helperService.scrollToTop();
   }
 
 }

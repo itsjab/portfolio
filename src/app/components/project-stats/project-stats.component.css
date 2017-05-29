@@ -14,8 +14,8 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
   @media (max-width: 61.24em) {
     .Project-Stat:not(:first-of-type) {
       margin-top: 4rem; } }
@@ -23,7 +23,7 @@
     .Project-Stat:not(:first-of-type) {
       padding-left: 5rem; } }
   .Project-Stat h3 {
-    margin: 1rem 0 .5rem 0 !important; }
+    margin: 1.5rem 0 .5rem 0 !important; }
   .Project-Stat div {
     text-align: center; }
 

@@ -22,6 +22,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FestivalComponent } from './pages/festival/festival.component';
 import { AboutComponent } from './pages/about/about.component';
 import {WorkService} from "./services/work-service/work.service";
+import {HelperService} from "./services/helper-service/helper.service";
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import {WorkService} from "./services/work-service/work.service";
     HttpModule,
     AppRoutingModule
   ],
-  providers: [ProjectService, WorkService],
+  providers: [ProjectService, WorkService, HelperService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

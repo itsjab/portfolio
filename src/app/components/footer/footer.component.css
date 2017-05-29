@@ -4,6 +4,8 @@
   align-items: center;
   padding: 5rem 0;
   color: #fff; }
+  .Footer li {
+    cursor: pointer; }
   .Footer li:not(:first-of-type) {
     margin-left: 2.5rem; }
 
