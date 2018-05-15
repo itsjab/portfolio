@@ -1,5 +1,16 @@
 [
   {
+    "image": "../../../assets/images/about-qut-logo.jpg",
+    "title": "Research intern at the Queensland University of Technology",
+    "duration": "August 2017 - April 2018",
+    "description": "QUT is one of Australia's top universities. As a research assistant at the Urban Informatics Lab I worked on my Master's thesis, exploring software-supported food waste prevention in restaurants:",
+    "tasks": [
+      "Exploring the drivers and sources of food waste in small-to-medium-sized restaurants",
+      "Designing and developing light-weight digital applications that support restaurant processes",
+      "Conducting qualitative research through semi-structured interviews and focus groups, mainly with chefs and restaurateurs"
+    ]
+  },
+  {
     "image": "../../../assets/images/logo-check24.png",
     "title": "Working student at CHECK24 in Munich",
     "duration": "January 2017 - today",
@@ -16,9 +27,9 @@
     "duration": "October 2015 - December 2016",
     "description": "TIM Solutions is a small software company in Munich specializing in business process automation software. My tasks at TIM Solutions included:",
     "tasks": [
-      "Web development with React and Angular for large mobile and desktop applications",
-      "Conducting user research and usability tests",
-      "Feature development from requirements engineering over creating mockups to user testing"
+      "Developing small-scale customized web applications that accompanied business processes, collecting and processing data",
+      "Developing and maintaining a comprehensive test environment, including unit and integration tests",
+      "Designing and developing feature requests"
     ]
   },
   {
@@ -41,7 +52,7 @@
     "tasks": [
       "Conducting user tests to improve the Agistix's platform",
       "Creating prototypes for new features for the logistics platform",
-      "Redesign of the website www.agistix.com"
+      "Redesign of the company website agistix.com"
     ]
   }
 ]

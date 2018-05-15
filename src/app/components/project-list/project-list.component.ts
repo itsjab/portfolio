@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {Project} from "../../project";
+import {Project} from '../../project';
 import 'rxjs/add/operator/map';
-import {Router} from "@angular/router";
-import {ProjectService} from "../../services/project-service/project.service";
+import {Router} from '@angular/router';
+import {ProjectService} from '../../services/project-service/project.service';
 
 @Component({
   selector: 'app-project-list',
@@ -24,11 +24,11 @@ export class ProjectListComponent implements OnInit {
   getProjects(): void {
     this.projectService
       .getProjects()
-      .then(projects => this.projects = projects)
+      .then(projects => this.projects = projects);
   }
 
   selectProject(project): void {
-    this.router.navigate([`/${project}`])
+    this.router.navigate([`/${project}`]);
   }
 }
 
