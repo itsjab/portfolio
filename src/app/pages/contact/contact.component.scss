@@ -1,0 +1,28 @@
+@import "../../../../node_modules/sass-mq/mq";
+
+.Contact-Content {
+  display: flex;
+  margin: auto;
+  flex-flow: column wrap;
+
+  @include mq($until: tablet) {
+    width: 300px;
+    margin-top: 2.5rem;
+    justify-content: center;
+  }
+
+  @include mq($from: tablet, $until: desktop) {
+    width: 640px;
+    margin-top: 2.5rem;
+  }
+
+  @include mq($from: desktop, $until: wide) {
+    width: 960px;
+    margin-top: 2.5rem;
+  }
+
+  @include mq($from: wide) {
+    width: 1170px;
+    margin-top: 4rem;
+  }
+}

@@ -31,6 +31,10 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['/about']);
   }
 
+  navigateToContact(): void {
+    this.router.navigate(['/contact']);
+  }
+
   setFooterBackground(): void {
     switch (this.project) {
       case 'frozen':

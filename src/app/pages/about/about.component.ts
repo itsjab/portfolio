@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {WorkService} from "../../services/work-service/work.service";
-import {Work} from "../../work";
-import {HelperService} from "../../services/helper-service/helper.service";
+import {WorkService} from '../../services/work-service/work.service';
+import {Work} from '../../work';
+import {HelperService} from '../../services/helper-service/helper.service';
 
 @Component({
   selector: 'app-about',
@@ -23,7 +23,7 @@ export class AboutComponent implements OnInit {
   getWorkExperience(): void {
     this.workService
       .getWorkExperience()
-      .then(work => this.workExperience = work)
+      .then(work => this.workExperience = work);
   }
 
 
