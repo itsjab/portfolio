@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Router} from "@angular/router";
+import {Router} from '@angular/router';
 
 
 @Component({
@@ -18,6 +18,11 @@ export class NavigationComponent {
 
   navigateToAbout(): void {
     this.router.navigate(['/about']);
+    this.closeSideNavigation();
+  }
+
+  navigateToContact(): void {
+    this.router.navigate(['/contact']);
     this.closeSideNavigation();
   }
 

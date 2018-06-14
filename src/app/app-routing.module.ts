@@ -7,12 +7,14 @@ import { BuntesDeutschlandComponent } from './pages/buntes-deutschland/buntes-de
 import { SocialRideComponent } from './pages/social-ride/social-ride.component';
 import { TimComponent } from './pages/tim/tim.component';
 import { RoommateComponent } from './pages/roommate/roommate.component';
-import {FestivalComponent} from "./pages/festival/festival.component";
-import {AboutComponent} from "./pages/about/about.component";
+import {FestivalComponent} from './pages/festival/festival.component';
+import {AboutComponent} from './pages/about/about.component';
+import {ContactComponent} from './pages/contact/contact.component';
 
 const appRoutes: Routes = [
   { path: 'projects',  component: ProjectsComponent },
   { path: 'about',  component: AboutComponent },
+  { path: 'contact',  component: ContactComponent },
   { path: 'festival', component: FestivalComponent },
   { path: 'frozen-sea', component: FrozenSeaComponent },
   { path: 'buntes-deutschland', component: BuntesDeutschlandComponent },
