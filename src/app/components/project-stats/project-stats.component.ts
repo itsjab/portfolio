@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Project} from "../../project";
-import {ProjectService} from "../../services/project-service/project.service";
+import {Project} from '../../project';
+import {ProjectService} from '../../services/project-service/project.service';
 
 @Component({
   selector: 'app-project-stats',
@@ -10,9 +10,9 @@ import {ProjectService} from "../../services/project-service/project.service";
 export class ProjectStatsComponent implements OnInit {
 
   @Input() select: string;
-  private frozen: boolean;
-  private socialRide: boolean;
-  private project: Project;
+  public frozen: boolean;
+  public socialRide: boolean;
+  public project: Project;
 
   constructor(private projectService: ProjectService) {}
 
@@ -28,7 +28,7 @@ export class ProjectStatsComponent implements OnInit {
   }
 
   setProjectStatsBackground(): void {
-    switch(this.select) {
+    switch (this.select) {
       case 'frozen-sea':
         this.frozen = true;
         break;

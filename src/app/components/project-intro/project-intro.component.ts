@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import 'rxjs/Rx';
-import {Project} from "../../project";
-import {ProjectService} from "../../services/project-service/project.service";
+import {Project} from '../../project';
+import {ProjectService} from '../../services/project-service/project.service';
 
 @Component({
   selector: 'project-intro',
@@ -13,7 +13,7 @@ export class ProjectIntroComponent implements OnInit {
 
   @Input() select: string;
 
-  private project: Project;
+  public project: Project;
 
   constructor(private projectService: ProjectService) {}
 

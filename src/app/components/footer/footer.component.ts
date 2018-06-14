@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Router} from "@angular/router";
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-footer',
@@ -32,7 +32,7 @@ export class FooterComponent implements OnInit {
   }
 
   setFooterBackground(): void {
-    switch(this.project) {
+    switch (this.project) {
       case 'frozen':
         this.frozen = true;
         break;
