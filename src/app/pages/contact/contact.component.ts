@@ -10,8 +10,8 @@ import { Message } from '../../message';
 })
 export class ContactComponent implements OnInit {
 
-  private messageSent = false;
-  private message = new Message('', '', '', '');
+  messageSent = false;
+  message = new Message('', '', '', '');
 
   constructor(private helperService: HelperService) {
   }
