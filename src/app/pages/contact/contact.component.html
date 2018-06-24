@@ -7,17 +7,46 @@
         I am always interested in getting in touch with fellow developers/designers.
         As I am about to finish my Masters, I am also looking for interesting projectscd and job opportunities.
       </p>
-      <form>
+      <form *ngIf="!messageSent">
         <label for="fullName">Your full name</label>
-        <input class="Contact-inputText" name="fullName" type="text" id="fullName"/>
+        <input class="Contact-inputText"
+               name="fullName"
+               type="text"
+               id="fullName"
+               required
+               [(ngModel)]="message.name"/>
         <label for="email">Your email address</label>
-        <input class="Contact-inputText" name="email" type="email" id="email"/>
+
+        <input type="email" class="Contact-inputText" id="email"
+               name="email"
+               required
+               [(ngModel)]="message.email"/>
         <label for="phone">Your phone number (optional)</label>
-        <input class="Contact-inputText" name="phone" type="tel" id="phone"/>
+
+        <input
+          class="Contact-inputText"
+          name="phone"
+          type="tel"
+          id="phone"
+          required
+          [(ngModel)]="message.phone"/>
         <label for="content">Message</label>
-        <textarea rows="7" class="Contact-inputText" name="content" id="content"></textarea>
-        <input type="submit" class="Contact-input" />
+
+        <textarea
+          rows="7"
+          class="Contact-inputText"
+          name="content"
+          id="content"
+          required
+          [(ngModel)]="message.content"></textarea>
+
+        <input type="submit" class="Contact-input" (click)="sendMessage()"/>
       </form>
+
+      <div *ngIf="messageSent">
+        <p>Thank for your message. I will respond as soon as possible.</p>
+      </div>
+
     </div>
   </div>
 

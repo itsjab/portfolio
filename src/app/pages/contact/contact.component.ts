@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {HelperService} from '../../services/helper-service/helper.service';
 
+import { Message } from '../../message';
 
 @Component({
   selector: 'app-contact',
@@ -9,10 +10,17 @@ import {HelperService} from '../../services/helper-service/helper.service';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private helperService: HelperService) { }
+  private messageSent = false;
+  private message = new Message('', '', '', '');
+
+  constructor(private helperService: HelperService) {
+  }
 
   ngOnInit() {
     this.helperService.scrollToTop();
   }
 
+  sendMessage(): void {
+    this.messageSent = true;
+  }
 }
