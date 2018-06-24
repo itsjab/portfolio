@@ -50,6 +50,13 @@ form {
 
   input[type=submit] {
     max-width: 8rem;
+    background: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #212121;
+      color: #ffffff;
+    }
   }
 
 
