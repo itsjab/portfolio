@@ -127,7 +127,7 @@
 @import "../../node_modules/inuitcss/objects/_objects.block";
 @import "../../node_modules/inuitcss/objects/_objects.ratio";
 @import "../../node_modules/inuitcss/objects/_objects.crop";
-@import "../../node_modules/inuitcss/objects/_objects.tables";
+//@import "../../node_modules/inuitcss/objects/_objects.tables";
 @import "../../node_modules/inuitcss/objects/_objects.pack";
 
 
@@ -139,6 +139,7 @@
 // Build and include your project’s UI Compoments here.
 @import "components/_components.buttons";
 @import "components/_components.layout";
+@import "components/_components.forms";
 
 
 

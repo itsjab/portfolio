@@ -2,13 +2,25 @@
 
   <div class="Contact-Content">
     <div>
-      <h1>Hey there, I am Jan</h1>
+      <h1>If you would like to connect, drop me a line or two</h1>
       <p>
-        I am a user experience designer and web developer from Munich. I love cooking, hiking and of course well-crafted software. Currently I am pursuing a Master's degree in human computer interaction at the Ludwigs-Maximilian University.
-        <br><br>
-        Besides my studies, I had the chance to work at a few different companies from startups to large corporations.
+        I am always interested in getting in touch with fellow developers/designers.
+        As I am about to finish my Masters, I am also looking for a interesting project ideas and job opportunities.
       </p>
+      <form>
+        <label for="fullName">Your full name</label>
+        <input class="Contact-inputText" name="fullName" type="text" id="fullName"/>
+        <label for="email">Your email address</label>
+        <input class="Contact-inputText" name="email" type="email" id="email"/>
+        <label for="phone">Your phone number (optional)</label>
+        <input class="Contact-inputText" name="phone" type="tel" id="phone"/>
+        <label for="content">Message</label>
+        <textarea rows="7" class="Contact-inputText" name="content" id="content"></textarea>
+        <input type="submit" class="Contact-input" />
+      </form>
     </div>
   </div>
+
+  <app-footer [project]="'frozen'"></app-footer>
 
 </section>
