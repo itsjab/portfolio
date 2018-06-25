@@ -3,27 +3,37 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+// Pages
+import { FestivalComponent } from './pages/festival/festival.component';
+import { FrozenSeaComponent } from './pages/frozen-sea/frozen-sea.component';
+import { BuntesDeutschlandComponent } from './pages/buntes-deutschland/buntes-deutschland.component';
+import { TimComponent } from './pages/tim/tim.component';
+import { SocialRideComponent } from './pages/social-ride/social-ride.component';
+import { RoommateComponent } from './pages/roommate/roommate.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+
+
+// Components
 import { ProjectListComponent } from './components/project-list/project-list.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { FrozenSeaComponent } from './pages/frozen-sea/frozen-sea.component';
-import { BuntesDeutschlandComponent } from './pages/buntes-deutschland/buntes-deutschland.component';
-import { SocialRideComponent } from './pages/social-ride/social-ride.component';
-import { TimComponent } from './pages/tim/tim.component';
-import { RoommateComponent } from './pages/roommate/roommate.component';
 import { ProjectIntroComponent } from './components/project-intro/project-intro.component';
-import {ProjectService} from './services/project-service/project.service';
-import {ProjectNavigationComponent} from './components/project-navigation/project-navigation.component';
+import { ProjectNavigationComponent } from './components/project-navigation/project-navigation.component';
 import { ProjectStatsComponent } from './components/project-stats/project-stats.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { FestivalComponent } from './pages/festival/festival.component';
-import { AboutComponent } from './pages/about/about.component';
-import {WorkService} from './services/work-service/work.service';
-import {HelperService} from './services/helper-service/helper.service';
-import { ContactComponent } from './pages/contact/contact.component';
+
+// Services
+import { ProjectService } from './services/project-service/project.service';
+import { WorkService } from './services/work-service/work.service';
+import { HelperService } from './services/helper-service/helper.service';
+import { SendMessageService } from './services/send-message-service/send-message.service';
+
+// Modules
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -51,7 +61,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [ProjectService, WorkService, HelperService],
+  providers: [ProjectService, WorkService, HelperService, SendMessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

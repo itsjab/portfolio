@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {HelperService} from '../../services/helper-service/helper.service';
 
 import { Message } from '../../message';
+import {SendMessageService} from '../../services/send-message-service/send-message.service';
 
 @Component({
   selector: 'app-contact',
@@ -13,7 +14,8 @@ export class ContactComponent implements OnInit {
   messageSent = false;
   message = new Message('', '', '', '');
 
-  constructor(private helperService: HelperService) {
+  constructor(private helperService: HelperService,
+              private sendMessageService: SendMessageService) {
   }
 
   ngOnInit() {
@@ -21,6 +23,7 @@ export class ContactComponent implements OnInit {
   }
 
   sendMessage(): void {
+    this.sendMessageService.sendMessage(this.message);
     this.messageSent = true;
   }
 }

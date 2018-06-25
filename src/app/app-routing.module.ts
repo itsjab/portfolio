@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 import { FrozenSeaComponent } from './pages/frozen-sea/frozen-sea.component';
 import { BuntesDeutschlandComponent } from './pages/buntes-deutschland/buntes-deutschland.component';
 import { SocialRideComponent } from './pages/social-ride/social-ride.component';
