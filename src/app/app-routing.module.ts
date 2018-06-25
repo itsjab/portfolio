@@ -1,19 +1,21 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 
-import { ProjectsComponent } from './pages/projects/projects.component';
-import { FrozenSeaComponent } from './pages/frozen-sea/frozen-sea.component';
-import { BuntesDeutschlandComponent } from './pages/buntes-deutschland/buntes-deutschland.component';
-import { SocialRideComponent } from './pages/social-ride/social-ride.component';
-import { TimComponent } from './pages/tim/tim.component';
-import { RoommateComponent } from './pages/roommate/roommate.component';
+import {ProjectsComponent} from './pages/projects/projects.component';
+import {FrozenSeaComponent} from './pages/frozen-sea/frozen-sea.component';
+import {BuntesDeutschlandComponent} from './pages/buntes-deutschland/buntes-deutschland.component';
+import {SocialRideComponent} from './pages/social-ride/social-ride.component';
+import {TimComponent} from './pages/tim/tim.component';
+import {RoommateComponent} from './pages/roommate/roommate.component';
 import {FestivalComponent} from './pages/festival/festival.component';
 import {AboutComponent} from './pages/about/about.component';
 import {ContactComponent} from './pages/contact/contact.component';
+import {LegalNoticeComponent} from './pages/legal-notice/legal-notice.component';
 
 const appRoutes: Routes = [
   { path: 'projects',  component: ProjectsComponent },
   { path: 'about',  component: AboutComponent },
+  {path: 'legal', component: LegalNoticeComponent},
   { path: 'contact',  component: ContactComponent },
   { path: 'festival', component: FestivalComponent },
   { path: 'frozen-sea', component: FrozenSeaComponent },

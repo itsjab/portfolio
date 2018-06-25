@@ -35,6 +35,10 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['/contact']);
   }
 
+  navigateToLegalNotice(): void {
+    this.router.navigate(['/legal']);
+  }
+
   setFooterBackground(): void {
     switch (this.project) {
       case 'frozen':
