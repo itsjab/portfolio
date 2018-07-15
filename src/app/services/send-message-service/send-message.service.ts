@@ -5,7 +5,7 @@ import {Message} from '../../message';
 @Injectable()
 export class SendMessageService {
 
-  private messageUrl = 'https://mailer-taglenvlcr.now.sh';
+  private messageUrl = 'http://localhost:3000';
 
   constructor(private http: Http) {
   }
