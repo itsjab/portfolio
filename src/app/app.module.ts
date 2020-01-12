@@ -20,6 +20,8 @@ import {ProjectIntroComponent} from './components/project-intro/project-intro.co
 import {ProjectNavigationComponent} from './components/project-navigation/project-navigation.component';
 import {ProjectStatsComponent} from './components/project-stats/project-stats.component';
 import {FooterComponent} from './components/footer/footer.component';
+import {LegalNoticeComponent} from './pages/legal-notice/legal-notice.component';
+import {FinoComponent} from './pages/fino/fino.component';
 // Services
 import {ProjectService} from './services/project-service/project.service';
 import {WorkService} from './services/work-service/work.service';
@@ -28,7 +30,6 @@ import {SendMessageService} from './services/send-message-service/send-message.s
 // Modules
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
-import {LegalNoticeComponent} from './pages/legal-notice/legal-notice.component';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import {LegalNoticeComponent} from './pages/legal-notice/legal-notice.component'
     AboutComponent,
     ContactComponent,
     LegalNoticeComponent,
+    FinoComponent,
   ],
   imports: [
     BrowserModule,

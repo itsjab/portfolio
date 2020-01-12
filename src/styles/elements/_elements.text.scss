@@ -43,12 +43,12 @@ h3 {
   margin-bottom: 2.5rem;
   font-family: 'Roboto', sans-serif;
 
-  @include mq($from: mobile, $until: desktop) {
-    font-size: 1rem;
-  }
-
   @include mq($from: desktop) {
     font-size: 1.5rem;
+  }
+
+  .with-text {
+    margin-bottom: 0;
   }
 }
 

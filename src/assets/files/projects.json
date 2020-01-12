@@ -1,5 +1,20 @@
 [
   {
+    "id": "fino",
+    "main": {
+      "title": "Fino",
+      "description": "A digital tool to prevent food waste in restaurants",
+      "image": "../../assets/images/fino-16-9.png"
+    },
+    "intro": {
+      "title": "Fino - A digital tool to prevent food waste in restaurants",
+      "description": "Food waste is a common problem in restaurants around the world. During my undergraduate studies I worked as a cook in restaurants in Germany and the US. Despite careful planning, we often had to throw away edible food at the end of the night.\n\nFor my master thesis at the Queensland University of Technology, I collaborated with chefs in Brisbane and Melbourne to find solutions for food waste in the restaurant industry. The result is Fino, a digital tool that simplifies the procurement process.",
+      "client": "QUT (University project)",
+      "role": "Designer & Developer",
+      "year": "2017 & 2018"
+    }
+  },
+  {
     "id": "festival",
     "main": {
       "title": "Festival für unangepasste Kunst",
@@ -17,33 +32,16 @@
   {
     "id": "frozen-sea",
     "main": {
-      "title": "Frozen Sea",
-      "description": "A platform that brings researchers and subjects together",
-      "image": "../../assets/images/frozen-sea-16-9.png"
+      "title": "WeSprout",
+      "description": "An urban farming community for Lagos and Munich",
+      "image": "../../assets/images/wesprout-16-9.png"
     },
     "intro": {
-      "title": "Frozen Sea",
-      "description": "At the Ludwig-Maximilians University in Munich, every semester countless experiments are conducted. Still, finding subjects for these studies proves to be incredibly difficult. Researchers and subjects have to rely on facebook groups, mailing lists and word of mouth.\n\nTo make this process easier for all parties, we created Frozen Sea, a platform to bring researchers and subjects together. Our algorithm takes study requirements into consideration to find suitable subjects.",
-      "client": "LMU (University project)",
-      "role": "Designer & Developer",
-      "year": "2017"
-    },
-    "stats": {
-      "stat1": {
-        "image": "../../../assets/vectors/create.svg",
-        "title": "Create",
-        "description": "Create your own experiments on the fly"
-      },
-      "stat2": {
-        "image": "../../../assets/vectors/participate.svg",
-        "title": "Participate",
-        "description": "Earn study hours, money, or gift cards"
-      },
-      "stat3": {
-        "image": "../../../assets/vectors/share.svg",
-        "title": "Share",
-        "description": "Share your experiments on social media"
-      }
+      "title": "WeSprout",
+      "description": "WeSprout is a concept to explore how hydroponics - growing leafy greens and vegetables in water instead of soil - could be made available to people in low-income areas in Lagos, Nigeria. We developed WeSprout as part of the EIT Food Summer School on Sustainable Food Systems that took place in Haifa, Israel and Munich, Germany in September 2019.",
+      "client": "EIT Food",
+      "role": "Designer",
+      "year": "2019"
     }
   },
   {
@@ -65,12 +63,12 @@
     "id": "social-ride",
     "main": {
       "title": "Social Ride",
-      "description": "SocialRide - a student-run NGO ",
+      "description": "SocialRide - A bike for everyone",
       "image": "../..//assets/images/social-ride-16-9.png"
     },
     "intro": {
-      "title": "Social Ride - Mobility means freedom",
-      "description": "SocialRide is a non-profit organization trying to help refugees getting started in Munich by providing bicycles free of charge. For us as students, the bike is an essential but affordable means of transportation. That's why we think, the bike is the perfect vehicle for incoming refugees to explore the beautiful Munich.\n\nSince October 2014 we setup our bike workshop in multiple refugee homes giving out free bikes and services. Recently we started offering a new service called Pimp My Bike where we refurbish and sell old bikes together with refugees.\n\nCreating and monitoring the website for SocialRide is both challenging and rewarding. I can use the skills learned at the LMU to help refugees get a head start here in Munich. And most importantly I can work with a great team on hip bicycles.",
+      "title": "Social Ride - A bike for everyone",
+      "description": "SocialRide is the project of a group of friends, giving out free bycicles and repairs to refugees and people in need. For us as students, the bike is an essential but affordable means of transportation. That's why we think, the bike is the perfect vehicle for incoming refugees to explore beautiful Munich.\n\nSince October 2014 we setup our mobile repair workshop in refugee homes across Munich. What started as a student project, turned into monthly workshops and collaborations with organizations from Munich and all over Germany.\n\nCreating and monitoring the website for SocialRide is both challenging and rewarding. I can use the skills learned at the LMU to help refugees get a head start here in Munich. Most importantly I can work with a great team on hip bicycles.",
       "client": "Social Ride",
       "role": "Designer & Developer",
       "year": "Ongoing"
@@ -78,17 +76,17 @@
     "stats": {
       "stat1": {
         "image": "../../../assets/vectors/repair-white.svg",
-        "title": "200 repaired bikes",
+        "title": "500 repaired bikes",
         "description": ""
       },
       "stat2": {
         "image": "../../../assets/vectors/bike-white.svg",
-        "title": "15 refurbished bikes",
+        "title": "30 refurbished bikes",
         "description": ""
       },
       "stat3": {
         "image": "../../../assets/vectors/participate-white.svg",
-        "title": "40 workshops held",
+        "title": "80 workshops held",
         "description": ""
       }
     }
@@ -102,25 +100,10 @@
     },
     "intro": {
       "title": "TIM - a lightweight project automation platform",
-      "description": "TIM Solutions, a small software company in the outskirts of Munich, is the first step of my professional career in Germany. After completing my Bachelor's in the spring of 2015, I started as an intern with the goal to develop the new user interface of the web-based process automation tool TIM.\n\nWe started the project TIM One of a kind by analyzing the existing GUI of TIM. By asking our customers we realized what works well and what needs to be adjusted in the design.\n\nWith a customer-centered approach we made sure to not only design a modern, lightweight application, but to also satisfy the needs of our users.",
+      "description": "TIM Solutions, a small software company in the outskirts of Munich, is the first step of my professional career in Germany. After completing my Bachelor's in the spring of 2015, I started as an intern, developing the new user interface of the web-based process automation tool TIM.\n\nWe started the project TIM One of a kind by analyzing the existing user interface of TIM. By asking our customers, we realized what works well and what needs to be adjusted.\n\nWith a user-centered approach we made sure to  design a modern, lightweight application that puts the user first.",
       "client": "TIM Solutions GmbH",
       "role": "Designer",
       "year": "2015 & 2016"
-    }
-  },
-  {
-    "id": "roommate",
-    "main": {
-      "title": "Roommate",
-      "description": "A fun, tinder-like way of finding your next roommate or shared apartment",
-      "image": "../../assets/images/roommate-16-9.png"
-    },
-    "intro": {
-      "title": "Roommate - swipe to your next roommate",
-      "description": "I came up with the idea for roommate while looking for a shared apartment in Munich. As it is with many major cities around the world, Munich's real estate market is an urban jungle. This makes finding a place to stay or a new roommate equally painful.\n\nWhat if you could intelligently match shared appartments with applicants? Similar to Tinder, Roommate brings blabla and shared apartments together.",
-      "client": "None (personal project)",
-      "role": "Designer",
-      "year": "2016"
     }
   }
 ]

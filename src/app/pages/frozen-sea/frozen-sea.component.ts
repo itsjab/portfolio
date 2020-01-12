@@ -13,5 +13,4 @@ export class FrozenSeaComponent implements OnInit {
   ngOnInit() {
     this.helperService.scrollToTop();
   }
-
 }
